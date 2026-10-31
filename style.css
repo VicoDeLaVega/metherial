@@ -34,3 +34,10 @@ html,body{max-width:100%;overflow-x:hidden}main{min-width:0;grid-template-column
 #previewResize{left:0;right:0;bottom:0;top:auto;width:auto;height:8px;padding:0;border-radius:0;background:var(--green);cursor:ns-resize;font-size:0}.resizing-preview[data-resize-axis=x],.resizing-preview[data-resize-axis=x] *{cursor:ew-resize!important}.resizing-preview[data-resize-axis=y],.resizing-preview[data-resize-axis=y] *{cursor:ns-resize!important}
 @media(max-width:1200px) and (min-width:851px){main{grid-template-columns:170px minmax(0,1fr) clamp(300px,var(--inspector-width,370px),calc(100vw - 500px))}}
 @media(max-width:850px){main{display:flex}.workspace{min-width:0}.preview:not(.expanded){max-width:100%}}
+/* Keep scrollable grid rows independent of their viewport height. */
+#presets{grid-auto-rows:180px;align-items:start;row-gap:12px;min-height:195px}
+#presets .preset{box-sizing:border-box;width:128px;height:180px;min-height:180px;max-height:180px;align-self:start;overflow:hidden}
+#presets .preset canvas{display:block;width:126px;height:126px;min-height:126px;max-height:126px;object-fit:contain}
+#presets .preset b{box-sizing:border-box;height:52px;min-height:52px;padding:7px 8px;line-height:16px;overflow:hidden}
+#maps{grid-auto-rows:152px;align-items:start;row-gap:12px;min-height:167px}
+#maps .map{height:152px;min-height:152px;overflow:hidden}

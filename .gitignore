@@ -1,0 +1,7 @@
+*.log
+*.backup.js
+node_modules/
+.env
+.env.*
+work/
+.openai/

@@ -1,0 +1,54 @@
+# metherial — Material Lab
+
+Éditeur HTML local de matériaux procéduraux, inspiré des graphes de Substance Designer. Implémentation originale, sans code ni assets Adobe. Aucun paquet npm ni service distant nécessaire.
+
+## Lancement
+
+Ouvrir un terminal dans le dossier du projet, puis :
+
+    npm start
+
+Ouvrir http://127.0.0.1:4173 dans Chrome ou Edge avec WebGPU activé et un GPU compatible. Le port peut être changé dans server.cjs. Le serveur ne se lie qu'à la boucle locale.
+
+## Utilisation
+
+- Choisir un des cinq matériaux : calcaire, acier oxydé, chêne, marbre ou brique.
+- Ajouter un node depuis la bibliothèque. Cliquer sur son titre pour sélectionner et modifier ses propriétés.
+- Cliquer sur une sortie puis sur une entrée pour connecter. Double-cliquer sur une entrée pour déconnecter. Les cycles sont refusés.
+- Glisser les titres pour déplacer les nodes. Glisser le fond pour naviguer, utiliser la molette pour zoomer et Centrer pour cadrer.
+- Le premier node PBR Output définit le matériau. Conserver une seule sortie par projet.
+- Faire tourner la sphère en glissant sur l'aperçu ou activer Auto. Plan affiche la texture sur un support plat.
+- Cliquer une carte pour exporter le PNG : BaseColor, Roughness, Height, Normal (convention Y+), AO. Le métal est un paramètre uniforme de l'aperçu.
+- Exporter les maps lance cinq téléchargements ; le navigateur peut demander de les autoriser.
+- Sauvegarder/Ouvrir échange des graphes JSON. La session est aussi conservée dans localStorage.
+
+## Architecture et limites actuelles
+
+Le rendu utilise exclusivement WebGPU et un shader WGSL : sphère analytique/plan, BRDF GGX, deux éclairages de studio, normales, rugosité et AO. Pas de repli WebGL. Le graphe est évalué sur CPU (JavaScript Float32Array), puis les textures sont téléversées sur GPU. Ce n'est pas encore un moteur de compute shaders WebGPU.
+
+12 nodes : Fractal Noise, Voronoi, Stains/Grunge, Tile Sampler, Wood Grain, Marble Veins, Blur, Ambient Occlusion, Edge Detector, Blend/Multiply, Levels, PBR Output.
+
+Les générateurs sont périodiques et les filtres bouclent aux bords. L'AO est une estimation locale de la hauteur. Les palettes et cartes de rugosité sont dérivées d'un champ scalaire ; elles ne remplacent pas des textures mesurées. Les cinq exemples sont des points de départ procéduraux, pas une garantie de photoréalisme. L'aperçu n'a pas encore de HDRI, de déplacement géométrique, de path tracing ni d'import de mesh. Les résolutions disponibles sont 256, 512 et 1024 ; le calcul est synchrone et peut ralentir pour un grand graphe.
+
+## Vérification
+
+    npm test
+
+Les tests couvrent les cinq presets, tous les nodes, le déterminisme, les valeurs finies, la périodicité du bruit, le rejet des cycles, la validation d'import et le flou constant. La compilation et le rendu WGSL doivent être vérifiés dans le navigateur ; les erreurs de compilation WebGPU sont affichées dans la barre d'état.
+
+Vérification de cette livraison : syntaxe JavaScript et tests du moteur validés. Vérification visuelle WebGPU non réalisée : accès localhost expiré dans l'environnement d'exécution et protocole file bloqué par l'outil navigateur.
+
+Collection dark fantasy : 31 exemples, dont 10 murs, 8 nouvelles briques et 8 nouveaux bois. Filtres de bibliothèque par famille. Nouveaux nodes Dungeon Masonry, Ancient Timber et Ruined Plaster. Le rendu reste procédural stylisé ; le photoréalisme final dépend de l'éclairage, de l'échelle et de l'intégration dans le jeu.
+
+Refonte des matériaux : 31 graphes de 11 nodes avec Warp, Surface Detail, Flood Fill Random, Dirt/Cavity et Invert (20 types au total). PBR Output possède quatre entrées : Height, Color, Roughness, AO. Les anciens projets à une entrée sont migrés au chargement. Rechargez un exemple pour obtenir le nouveau graphe. Les contrôles FOV (20–90 degrés) et Tiling (0.25–10) ne modifient que l'aperçu.
+
+Motifs : 6 générateurs de masques (Herringbone, Hexagon, Basket Weave, Interlocking Pavers, Square Tiles, Ashlar), joints/chanfreins/variation/seed réglables. Blanc = surface ; noir = joint. 12 exemples supplémentaires dans Motifs, pour un total de 43 matériaux et 26 types de nodes. Périodicité testée sur les six masques.
+
+Références : 6 recettes ajustées depuis les images de briques fournies. L'onglet Références applique aussi ses réglages d'aperçu. Premier exemple vérifié visuellement dans Chrome/WebGPU ; approximation procédurale, pas reproduction exacte d'un matériau scanné.
+
+Nouveau mur ancien cuisson contrastée : node Kiln / Mortar Weathering, zones de cuisson noires par brique, abrasion claire et débordements de mortier. Vérifié visuellement dans Chrome/WebGPU à 512.
+
+## Version web
+
+Application statique compatible GitHub Pages : index.html, style.css, app.js et engine.js. WebGPU exige un navigateur et un GPU compatibles ; HTTPS est fourni par GitHub Pages. Les graphes sont conservés dans le navigateur, sans envoi vers un serveur.
+

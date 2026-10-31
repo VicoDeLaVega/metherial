@@ -27,3 +27,10 @@ main{grid-template-columns:200px minmax(360px,1fr) var(--inspector-width,440px)}
 @media(max-width:850px){.preview:not(.expanded){max-width:100%}}
 
 .point-light-controls{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:12px 0;margin:10px 0}.point-light-controls button{width:100%;margin-bottom:7px;font-size:11px}
+
+/* Bounded panels, vertical material lists and edge resizing. */
+html,body{max-width:100%;overflow-x:hidden}main{min-width:0;grid-template-columns:200px minmax(0,1fr) clamp(312px,var(--inspector-width,440px),calc(100vw - 530px))}.inspector{min-width:0;overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain}.workspace{overflow-x:hidden}#presets,#maps{grid-auto-flow:row;grid-auto-columns:auto;grid-template-columns:repeat(auto-fill,128px);overflow-x:hidden;overflow-y:auto;max-height:205px;align-content:start;overscroll-behavior:contain}.preview{width:100%;max-width:100%;overflow:hidden}.preview.expanded{max-width:calc(100vw - 16px)}
+.preview-edge{position:absolute;z-index:10;touch-action:none;user-select:none;opacity:0;transition:opacity .15s;background:var(--green)}.preview:hover .preview-edge{opacity:.18}.preview-edge:hover{opacity:.8!important}.preview-edge.left{left:0;top:0;bottom:0;width:7px;cursor:ew-resize}.preview-edge.right{right:0;top:0;bottom:0;width:7px;cursor:ew-resize}.preview-edge.top{top:0;left:0;right:0;height:7px;cursor:ns-resize;display:none}.preview.expanded .preview-edge.top{display:block}
+#previewResize{left:0;right:0;bottom:0;top:auto;width:auto;height:8px;padding:0;border-radius:0;background:var(--green);cursor:ns-resize;font-size:0}.resizing-preview[data-resize-axis=x],.resizing-preview[data-resize-axis=x] *{cursor:ew-resize!important}.resizing-preview[data-resize-axis=y],.resizing-preview[data-resize-axis=y] *{cursor:ns-resize!important}
+@media(max-width:1200px) and (min-width:851px){main{grid-template-columns:170px minmax(0,1fr) clamp(300px,var(--inspector-width,370px),calc(100vw - 500px))}}
+@media(max-width:850px){main{display:flex}.workspace{min-width:0}.preview:not(.expanded){max-width:100%}}

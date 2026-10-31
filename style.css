@@ -25,3 +25,5 @@ main{grid-template-columns:200px minmax(360px,1fr) var(--inspector-width,440px)}
 #previewResize:hover{background:#344931}.resizing-preview,.resizing-preview *{cursor:nwse-resize!important;user-select:none!important}
 @media(max-width:1200px) and (min-width:851px){main{grid-template-columns:170px minmax(330px,1fr) var(--inspector-width,370px)}}
 @media(max-width:850px){.preview:not(.expanded){max-width:100%}}
+
+.point-light-controls{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:12px 0;margin:10px 0}.point-light-controls button{width:100%;margin-bottom:7px;font-size:11px}

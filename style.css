@@ -41,3 +41,5 @@ html,body{max-width:100%;overflow-x:hidden}main{min-width:0;grid-template-column
 #presets .preset b{box-sizing:border-box;height:52px;min-height:52px;padding:7px 8px;line-height:16px;overflow:hidden}
 #maps{grid-auto-rows:152px;align-items:start;row-gap:12px;min-height:167px}
 #maps .map{height:152px;min-height:152px;overflow:hidden}
+
+#preview.dragging{cursor:grabbing}.preview{overscroll-behavior:contain}.preview-tools{padding-bottom:4px}

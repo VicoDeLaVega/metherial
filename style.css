@@ -45,3 +45,5 @@ html,body{max-width:100%;overflow-x:hidden}main{min-width:0;grid-template-column
 #preview.dragging{cursor:grabbing}.preview{overscroll-behavior:contain}.preview-tools{padding-bottom:4px}
 
 .hdri-controls{border-bottom:1px solid var(--line);padding:6px 0 16px;margin-bottom:14px}.hdri-controls select{width:155px;padding:5px}.hdri-controls small{font-size:9px;color:var(--dim)}
+
+.reference-info{display:flex;gap:12px;flex-wrap:wrap;padding:8px 20px;font-size:10px;background:#202823;flex-shrink:0}.reference-info[hidden],.preset[hidden]{display:none}.reference-info a{color:#cbe99a}.reference-info span{color:#aaa}.material-filters input{width:185px}.material-filters select{max-width:180px}.preset{overflow:hidden;min-height:180px}

@@ -58,3 +58,9 @@ Pipeline de relief : HeightMacro (hauteur lissée) pour le ray marching et Norma
 Éclairage HDRI : Studio Small 09 (Sergej Majboroda / Poly Haven, CC0). Source : https://polyhaven.com/a/studio_small_09 . Radiance linéaire rgba16float, neuf niveaux GGX préfiltrés et irradiance diffuse. Contrôles rotation/intensité/fond ; studio analytique et point light indépendants. Les données sont embarquées dans app.js pour fonctionner sans redémarrer les anciennes versions du serveur local. La réponse spéculaire utilise une approximation de Fresnel intégrée, sans LUT BRDF dédiée. Voir assets/LICENSE.txt.
 
 Résolution par défaut : 2048 × 2048 pour les sept cartes et leurs exports PNG. Calcul du graphe dans un Web Worker annulable ; les vignettes de bibliothèque restent réduites. Vérification navigateur : sept canvases de 2048 × 2048, génération du marbre en environ 17 s sur la machine de test.
+
+## Catalogue procédural inspiré de Poly Haven
+
+155 recettes éditables supplémentaires couvrent l'inventaire brick-block relevé le 31 octobre 2026 : https://polyhaven.com/textures/brick-block. Ce sont des approximations paramétrées à partir des descriptions du catalogue, pas des reproductions exactes ni des scans. Aucune carte de matériau externe n'est importée. Chaque recette conserve sa source et son auteur dans assets/procedural-polyhaven-catalog.json.
+
+Filtre Poly Haven, recherche par nom et filtre par famille dans la bibliothèque. Les vignettes sont calculées à la demande dans un worker ; le matériau actif conserve le calcul et l'export en 2048. Les nouveaux nodes Irregular Stonework et Decorative Blockwork complètent les masques existants. Kiln / Mortar Weathering expose mousse, peinture écaillée, couleur de peinture et bandes.

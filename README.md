@@ -52,3 +52,5 @@ Nouveau mur ancien cuisson contrastée : node Kiln / Mortar Weathering, zones de
 
 Application statique compatible GitHub Pages : index.html, style.css, app.js et engine.js. WebGPU exige un navigateur et un GPU compatibles ; HTTPS est fourni par GitHub Pages. Les graphes sont conservés dans le navigateur, sans envoi vers un serveur.
 
+
+Pipeline de relief : HeightMacro (hauteur lissée) pour le ray marching et NormalMicro (résidu haute fréquence atténué) pour les détails. Lorsque le déplacement est nul, l'aperçu utilise la Normal complète. Les sept cartes sont exportables. Mortier et dépôts ont une rugosité distincte des faces. Éclairage toujours analytique de studio, pas encore de HDRI importée.

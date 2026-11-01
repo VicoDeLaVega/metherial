@@ -50,3 +50,7 @@ html,body{max-width:100%;overflow-x:hidden}main{min-width:0;grid-template-column
 
 .render-progress{display:flex;align-items:center;gap:12px;padding:6px 20px 12px;flex-shrink:0;font-size:11px;flex-wrap:wrap}.progressive-option{display:flex;align-items:center;gap:7px}.render-progress progress{flex:1;min-width:90px;height:9px;accent-color:#cbed9c}.render-progress span{min-width:175px;color:#c2ceae}button:disabled{opacity:.45;cursor:wait}
 .progressive-option{white-space:nowrap;flex-shrink:0}.progressive-option input{width:auto;flex:none;margin:0}.render-progress progress{min-width:100px}
+
+.realtime-controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:8px 20px;font-size:11px;flex-shrink:0;background:#20271f}.realtime-controls label{display:flex;align-items:center;gap:7px}.realtime-controls input{width:auto}.realtime-controls span{color:#aab49f}.realtime-controls select{width:75px}
+
+#maps.gpu-maps-note{display:block;line-height:1.6;padding:14px 20px;color:#b4bea7;font-size:11px}

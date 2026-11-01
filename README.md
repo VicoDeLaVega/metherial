@@ -70,3 +70,11 @@ Sur la sphère, le tiling horizontal est arrondi à un nombre entier de répéti
 ## Aperçu progressif
 
 L'option Aperçu progressif affiche successivement 256, 512, 1024 puis 2048, en s'arrêtant à la résolution sélectionnée. Désactivez-la pour calculer directement la résolution cible. Le choix est mémorisé localement. La barre reçoit l'avancement réel des nodes et des lignes de cartes PBR ; sa pondération représente le travail effectué, pas une estimation du temps restant. Une modification annule immédiatement le travail précédent. Les exports sont disponibles lorsque la résolution finale est prête.
+
+## Aperçu temps réel WebGPU (optionnel)
+
+Activez « Temps réel GPU · aperçu simplifié ». Un compute shader WGSL génère les textures directement sur le GPU, en 256, 512 ou 1024. Les paramètres numériques et les couleurs passent par un buffer uniforme ; le shader compilé est réutilisé pendant les réglages. L'orbite, le HDRI et les lumières restent actifs.
+
+Ce mode est une approximation interactive du graphe, sans ray tracing matériel. Les motifs, Flood Fill, AO, blur, usure et certains paramètres structurels diffèrent du calcul complet ; il ne remplace pas la cuisson finale. Les vignettes des nodes ne sont pas recalculées en mode GPU. « Cuire pour exporter » désactive ce mode et calcule le graphe complet à la résolution sélectionnée ; exportez ensuite les cartes PNG. Un échec de compilation revient au calcul complet et affiche sa cause.
+
+Validation : node tests-realtime.cjs vérifie la génération des 205 recettes, les uniforms et la stabilité du shader lors d'un réglage de rugosité. La compilation et les interactions GPU sont vérifiées dans Chrome sur des matériaux représentatifs.

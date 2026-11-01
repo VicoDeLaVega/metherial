@@ -66,3 +66,7 @@ Résolution par défaut : 2048 × 2048 pour les sept cartes et leurs exports PNG
 Filtre Poly Haven, recherche par nom et filtre par famille dans la bibliothèque. Les vignettes sont calculées à la demande dans un worker ; le matériau actif conserve le calcul et l'export en 2048. Les nouveaux nodes Irregular Stonework et Decorative Blockwork complètent les masques existants. Kiln / Mortar Weathering expose mousse, peinture écaillée, couleur de peinture et bandes.
 
 Sur la sphère, le tiling horizontal est arrondi à un nombre entier de répétitions pour éviter la couture d'un tour incomplet. Le tiling vertical et celui des autres formes restent continus. Le grain minéral et les taches de cuisson utilisent des bruits interpolés, sans cellules de couleur constantes.
+
+## Aperçu progressif
+
+L'option Aperçu progressif affiche successivement 256, 512, 1024 puis 2048, en s'arrêtant à la résolution sélectionnée. Désactivez-la pour calculer directement la résolution cible. Le choix est mémorisé localement. La barre reçoit l'avancement réel des nodes et des lignes de cartes PBR ; sa pondération représente le travail effectué, pas une estimation du temps restant. Une modification annule immédiatement le travail précédent. Les exports sont disponibles lorsque la résolution finale est prête.

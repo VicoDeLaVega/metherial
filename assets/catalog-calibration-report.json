@@ -1,0 +1,3722 @@
+[
+  {
+    "id": "blue_floor_tiles_01",
+    "gen": "masonry",
+    "review": "visual-sampled",
+    "targetRGB": [
+      149.223,
+      139.047,
+      112.995
+    ],
+    "beforeRGB": [
+      87.0166015625,
+      99.680908203125,
+      93.933837890625
+    ],
+    "afterRGB": [
+      149.22398376464844,
+      139.0476531982422,
+      112.9931640625
+    ],
+    "targetRoughness": 0.76421,
+    "afterRoughness": 0.7649013743680171,
+    "rgbError": 0.0018359375000045475,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_4",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      149.82,
+      110.852,
+      80.015
+    ],
+    "beforeRGB": [
+      112.76220703125,
+      89.259033203125,
+      66.8974609375
+    ],
+    "afterRGB": [
+      151.78314208984375,
+      112.02116394042969,
+      80.86555480957031
+    ],
+    "targetRoughness": 0.77654,
+    "afterRoughness": 0.7764370787375264,
+    "rgbError": 1.9631420898437568,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_crosswalk",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      129.04,
+      125.46,
+      114.946
+    ],
+    "beforeRGB": [
+      161.224853515625,
+      141.2724609375,
+      111.18994140625
+    ],
+    "afterRGB": [
+      130.88914489746094,
+      127.27169799804688,
+      116.91111755371094
+    ],
+    "targetRoughness": 0.94021,
+    "afterRoughness": 0.9401900347535982,
+    "rgbError": 1.9651175537109395,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_floor",
+    "gen": "herringbone",
+    "review": "statistical",
+    "targetRGB": [
+      99.907,
+      86.659,
+      69.515
+    ],
+    "beforeRGB": [
+      118.329833984375,
+      101.072021484375,
+      73.28369140625
+    ],
+    "afterRGB": [
+      99.23216247558594,
+      85.77098083496094,
+      69.49940490722656
+    ],
+    "targetRoughness": 0.97057,
+    "afterRoughness": 0.9694738051467758,
+    "rgbError": 0.8880191650390685,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_floor_02",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      83.105,
+      64.737,
+      50.395
+    ],
+    "beforeRGB": [
+      121.690185546875,
+      94.0107421875,
+      75.9638671875
+    ],
+    "afterRGB": [
+      83.64598083496094,
+      65.09400939941406,
+      50.75706481933594
+    ],
+    "targetRoughness": 0.79048,
+    "afterRoughness": 0.7899633070993918,
+    "rgbError": 0.5409808349609335,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_floor_04",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      75.238,
+      65.547,
+      57.044
+    ],
+    "beforeRGB": [
+      132.474365234375,
+      100.763427734375,
+      78.849609375
+    ],
+    "afterRGB": [
+      75.23609924316406,
+      65.54644775390625,
+      57.04356384277344
+    ],
+    "targetRoughness": 0.9176,
+    "afterRoughness": 0.9173119040093807,
+    "rgbError": 0.0019007568359370453,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_moss_001",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      100.592,
+      84.869,
+      58.025
+    ],
+    "beforeRGB": [
+      81.7060546875,
+      73.374755859375,
+      55.018798828125
+    ],
+    "afterRGB": [
+      100.59034729003906,
+      84.86752319335938,
+      58.025054931640625
+    ],
+    "targetRoughness": 0.86611,
+    "afterRoughness": 0.8658613616341636,
+    "rgbError": 0.0016527099609362494,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_pavement",
+    "gen": "interlock",
+    "review": "statistical",
+    "targetRGB": [
+      78.875,
+      58.896,
+      50.438
+    ],
+    "beforeRGB": [
+      137.85107421875,
+      105.21630859375,
+      82.547119140625
+    ],
+    "afterRGB": [
+      78.660888671875,
+      58.77613830566406,
+      50.34112548828125
+    ],
+    "targetRoughness": 0.93656,
+    "afterRoughness": 0.9364095052085275,
+    "rgbError": 0.214111328125,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_pavement_02",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      79.682,
+      72.808,
+      65.151
+    ],
+    "beforeRGB": [
+      146.239990234375,
+      117.184814453125,
+      91.618896484375
+    ],
+    "afterRGB": [
+      80.26091003417969,
+      73.43583679199219,
+      65.82290649414062
+    ],
+    "targetRoughness": 0.88027,
+    "afterRoughness": 0.8800859039897971,
+    "rgbError": 0.6719064941406288,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_pavement_03",
+    "gen": "interlock",
+    "review": "statistical",
+    "targetRGB": [
+      110.502,
+      103.003,
+      93.428
+    ],
+    "beforeRGB": [
+      71.9150390625,
+      74.65087890625,
+      69.45166015625
+    ],
+    "afterRGB": [
+      110.82051086425781,
+      103.40731811523438,
+      93.86283874511719
+    ],
+    "targetRoughness": 0.93792,
+    "afterRoughness": 0.9380478802848274,
+    "rgbError": 0.43483874511719023,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_pavement_04",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      71.49,
+      58.258,
+      50.762
+    ],
+    "beforeRGB": [
+      143.10009765625,
+      109.484130859375,
+      84.293212890625
+    ],
+    "afterRGB": [
+      72.34107971191406,
+      58.3712158203125,
+      51.032958984375
+    ],
+    "targetRoughness": 0.95069,
+    "afterRoughness": 0.9505729525683568,
+    "rgbError": 0.8510797119140676,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_villa_floor",
+    "gen": "interlock",
+    "review": "statistical",
+    "targetRGB": [
+      65.909,
+      50.231,
+      34.843
+    ],
+    "beforeRGB": [
+      138.030517578125,
+      108.27978515625,
+      85.454345703125
+    ],
+    "afterRGB": [
+      65.68505859375,
+      50.124481201171875,
+      34.767333984375
+    ],
+    "targetRoughness": 0.81919,
+    "afterRoughness": 0.8190792308123694,
+    "rgbError": 0.22394140625000603,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_wall_001",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      100.109,
+      74.26,
+      59.896
+    ],
+    "beforeRGB": [
+      140.468505859375,
+      116.790771484375,
+      93.985107421875
+    ],
+    "afterRGB": [
+      100.57829284667969,
+      76.16188049316406,
+      61.87571716308594
+    ],
+    "targetRoughness": 0.91053,
+    "afterRoughness": 0.9096093869672958,
+    "rgbError": 1.9797171630859367,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_wall_003",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      149.842,
+      124.494,
+      102.178
+    ],
+    "beforeRGB": [
+      144.692626953125,
+      126.53955078125,
+      92.64501953125
+    ],
+    "afterRGB": [
+      149.8451690673828,
+      124.49716186523438,
+      102.17620849609375
+    ],
+    "targetRoughness": 0.69823,
+    "afterRoughness": 0.6965723972693584,
+    "rgbError": 0.0031690673827995397,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_wall_005",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      133.235,
+      106.545,
+      84.588
+    ],
+    "beforeRGB": [
+      141.2939453125,
+      109.28076171875,
+      84.9599609375
+    ],
+    "afterRGB": [
+      134.8851776123047,
+      107.9434814453125,
+      85.70155334472656
+    ],
+    "targetRoughness": 0.79351,
+    "afterRoughness": 0.7937932631543626,
+    "rgbError": 1.6501776123046739,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_wall_006",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      172.458,
+      116.324,
+      83.194
+    ],
+    "beforeRGB": [
+      154.981201171875,
+      119.541259765625,
+      90.807373046875
+    ],
+    "afterRGB": [
+      172.4582977294922,
+      116.3250732421875,
+      83.19198608398438
+    ],
+    "targetRoughness": 0.78756,
+    "afterRoughness": 0.7875080781816823,
+    "rgbError": 0.002013916015627615,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_wall_02",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      162.16,
+      142.54,
+      118.041
+    ],
+    "beforeRGB": [
+      148.579833984375,
+      119.145263671875,
+      93.7138671875
+    ],
+    "afterRGB": [
+      162.15908813476562,
+      142.54010009765625,
+      118.04005432128906
+    ],
+    "targetRoughness": 0.78857,
+    "afterRoughness": 0.7885617125263382,
+    "rgbError": 0.0009456787109343168,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_wall_04",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      110.355,
+      88.844,
+      66.823
+    ],
+    "beforeRGB": [
+      126.303955078125,
+      125.09521484375,
+      114.121337890625
+    ],
+    "afterRGB": [
+      110.35336303710938,
+      88.8427734375,
+      66.82209777832031
+    ],
+    "targetRoughness": 0.76628,
+    "afterRoughness": 0.7564594343595296,
+    "rgbError": 0.001636962890628979,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_wall_07",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      153.413,
+      115.408,
+      80.848
+    ],
+    "beforeRGB": [
+      126.110595703125,
+      96.436767578125,
+      77.25439453125
+    ],
+    "afterRGB": [
+      155.40040588378906,
+      116.38230895996094,
+      81.3399658203125
+    ],
+    "targetRoughness": 0.6936,
+    "afterRoughness": 0.6932567521635173,
+    "rgbError": 1.9874058837890516,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_wall_08",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      107.141,
+      101.395,
+      98.492
+    ],
+    "beforeRGB": [
+      116.0703125,
+      115.37890625,
+      105.412841796875
+    ],
+    "afterRGB": [
+      106.57948303222656,
+      100.8594970703125,
+      97.99362182617188
+    ],
+    "targetRoughness": 0.88016,
+    "afterRoughness": 0.880275591681744,
+    "rgbError": 0.5615169677734428,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_wall_09",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      160.162,
+      131.627,
+      112.545
+    ],
+    "beforeRGB": [
+      131.224853515625,
+      100.904296875,
+      79.77392578125
+    ],
+    "afterRGB": [
+      160.87799072265625,
+      132.13160705566406,
+      113.08416748046875
+    ],
+    "targetRoughness": 0.93207,
+    "afterRoughness": 0.9316884358719413,
+    "rgbError": 0.7159907226562439,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_wall_10",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      68.427,
+      52.736,
+      47.425
+    ],
+    "beforeRGB": [
+      148.948486328125,
+      114.6943359375,
+      87.363525390625
+    ],
+    "afterRGB": [
+      67.87847900390625,
+      52.19602966308594,
+      47.3829345703125
+    ],
+    "targetRoughness": 0.78696,
+    "afterRoughness": 0.7866222905171948,
+    "rgbError": 0.5485209960937567,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_wall_11",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      106.601,
+      89.152,
+      69.998
+    ],
+    "beforeRGB": [
+      138.15185546875,
+      106.41259765625,
+      83.155517578125
+    ],
+    "afterRGB": [
+      106.60331726074219,
+      89.15280151367188,
+      69.99995422363281
+    ],
+    "targetRoughness": 0.962,
+    "afterRoughness": 0.9612582936011264,
+    "rgbError": 0.0023172607421884095,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_wall_12",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      144.044,
+      104.771,
+      63.843
+    ],
+    "beforeRGB": [
+      144.99755859375,
+      123.831787109375,
+      87.07470703125
+    ],
+    "afterRGB": [
+      144.40420532226562,
+      104.89170837402344,
+      63.79237365722656
+    ],
+    "targetRoughness": 0.94376,
+    "afterRoughness": 0.9438002642452213,
+    "rgbError": 0.36020532226561386,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brick_wall_13",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      127.477,
+      118.818,
+      107.909
+    ],
+    "beforeRGB": [
+      138.1396484375,
+      114.772216796875,
+      92.038330078125
+    ],
+    "afterRGB": [
+      128.2568817138672,
+      119.62118530273438,
+      108.70028686523438
+    ],
+    "targetRoughness": 0.94993,
+    "afterRoughness": 0.9498970779705633,
+    "rgbError": 0.8031853027343772,
+    "generatedResolution": 256
+  },
+  {
+    "id": "broken_brick_wall",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      130.493,
+      75.215,
+      45.617
+    ],
+    "beforeRGB": [
+      136.363525390625,
+      113.202392578125,
+      90.425537109375
+    ],
+    "afterRGB": [
+      130.8305206298828,
+      75.34735107421875,
+      45.65777587890625
+    ],
+    "targetRoughness": 0.93856,
+    "afterRoughness": 0.9385621313952339,
+    "rgbError": 0.3375206298828175,
+    "generatedResolution": 256
+  },
+  {
+    "id": "brown_brick_02",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      182.643,
+      145.055,
+      104.997
+    ],
+    "beforeRGB": [
+      129.843017578125,
+      102.01025390625,
+      81.625244140625
+    ],
+    "afterRGB": [
+      182.70333862304688,
+      145.05332946777344,
+      104.99588012695312
+    ],
+    "targetRoughness": 0.69076,
+    "afterRoughness": 0.689835252948781,
+    "rgbError": 0.06033862304687432,
+    "generatedResolution": 256
+  },
+  {
+    "id": "castle_brick_01",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      135.236,
+      120.016,
+      93.662
+    ],
+    "beforeRGB": [
+      82.60302734375,
+      74.0361328125,
+      55.864501953125
+    ],
+    "afterRGB": [
+      135.2367401123047,
+      120.01457214355469,
+      93.66265869140625
+    ],
+    "targetRoughness": 0.91121,
+    "afterRoughness": 0.9103911755129042,
+    "rgbError": 0.0014278564453178433,
+    "generatedResolution": 256
+  },
+  {
+    "id": "castle_brick_02_red",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      128.931,
+      96.544,
+      73.124
+    ],
+    "beforeRGB": [
+      138.039794921875,
+      105.7861328125,
+      81.965576171875
+    ],
+    "afterRGB": [
+      130.63014221191406,
+      97.80509948730469,
+      74.12074279785156
+    ],
+    "targetRoughness": 0.97782,
+    "afterRoughness": 0.9775105794268308,
+    "rgbError": 1.699142211914051,
+    "generatedResolution": 256
+  },
+  {
+    "id": "castle_brick_02_white",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      128.128,
+      109.702,
+      86.367
+    ],
+    "beforeRGB": [
+      194.861572265625,
+      189.041015625,
+      162.947998046875
+    ],
+    "afterRGB": [
+      128.05555725097656,
+      109.63475036621094,
+      86.29911804199219
+    ],
+    "targetRoughness": 0.80157,
+    "afterRoughness": 0.8015541226253752,
+    "rgbError": 0.0724427490234234,
+    "generatedResolution": 256
+  },
+  {
+    "id": "castle_brick_07",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      116.878,
+      78.894,
+      53.868
+    ],
+    "beforeRGB": [
+      128.391845703125,
+      100.547607421875,
+      80.393310546875
+    ],
+    "afterRGB": [
+      118.20048522949219,
+      79.93728637695312,
+      54.650146484375
+    ],
+    "targetRoughness": 0.87477,
+    "afterRoughness": 0.8732385373579231,
+    "rgbError": 1.3224852294921874,
+    "generatedResolution": 256
+  },
+  {
+    "id": "castle_brick_broken_06",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      139.958,
+      89.565,
+      62.071
+    ],
+    "beforeRGB": [
+      141.9833984375,
+      119.11279296875,
+      95.0126953125
+    ],
+    "afterRGB": [
+      141.49945068359375,
+      90.30389404296875,
+      62.413818359375
+    ],
+    "targetRoughness": 0.80417,
+    "afterRoughness": 0.8048774270447884,
+    "rgbError": 1.5414506835937516,
+    "generatedResolution": 256
+  },
+  {
+    "id": "castle_wall_slates",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      138.054,
+      125.962,
+      101.594
+    ],
+    "beforeRGB": [
+      138.543701171875,
+      109.89306640625,
+      87.1005859375
+    ],
+    "afterRGB": [
+      138.05479431152344,
+      125.96136474609375,
+      101.59190368652344
+    ],
+    "targetRoughness": 0.52195,
+    "afterRoughness": 0.5182632745481315,
+    "rgbError": 0.0020963134765565883,
+    "generatedResolution": 256
+  },
+  {
+    "id": "checkered_pavement_tiles",
+    "gen": "ornament",
+    "review": "statistical",
+    "targetRGB": [
+      86.63,
+      75.021,
+      62.783
+    ],
+    "beforeRGB": [
+      136.9326171875,
+      104.776123046875,
+      81.662841796875
+    ],
+    "afterRGB": [
+      86.67286682128906,
+      75.10897827148438,
+      62.90283203125
+    ],
+    "targetRoughness": 0.72149,
+    "afterRoughness": 0.7214721679684647,
+    "rgbError": 0.11983203124999875,
+    "generatedResolution": 256
+  },
+  {
+    "id": "church_bricks_02",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      132.181,
+      100.617,
+      78.638
+    ],
+    "beforeRGB": [
+      138.06787109375,
+      106.314697265625,
+      82.869140625
+    ],
+    "afterRGB": [
+      132.1820526123047,
+      100.61830139160156,
+      78.63714599609375
+    ],
+    "targetRoughness": 0.81615,
+    "afterRoughness": 0.815831322763232,
+    "rgbError": 0.0013013916015580662,
+    "generatedResolution": 256
+  },
+  {
+    "id": "church_bricks_03",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      142.346,
+      114.437,
+      94.388
+    ],
+    "beforeRGB": [
+      131.920654296875,
+      109.0888671875,
+      88.199462890625
+    ],
+    "afterRGB": [
+      143.8427276611328,
+      115.51455688476562,
+      95.23872375488281
+    ],
+    "targetRoughness": 0.93774,
+    "afterRoughness": 0.9372045778757665,
+    "rgbError": 1.4967276611328089,
+    "generatedResolution": 256
+  },
+  {
+    "id": "clay_block_wall",
+    "gen": "organicstone",
+    "review": "statistical",
+    "targetRGB": [
+      130.68,
+      101.878,
+      70.686
+    ],
+    "beforeRGB": [
+      131.275390625,
+      104.7900390625,
+      80.7265625
+    ],
+    "afterRGB": [
+      131.095947265625,
+      102.21961975097656,
+      70.9215087890625
+    ],
+    "targetRoughness": 0.9402,
+    "afterRoughness": 0.9394966873464133,
+    "rgbError": 0.4159472656249932,
+    "generatedResolution": 256
+  },
+  {
+    "id": "cobblestone_03",
+    "gen": "tiles",
+    "review": "statistical",
+    "targetRGB": [
+      108.189,
+      102.035,
+      93.191
+    ],
+    "beforeRGB": [
+      143.20849609375,
+      116.886474609375,
+      94.413330078125
+    ],
+    "afterRGB": [
+      108.30581665039062,
+      102.27549743652344,
+      93.43989562988281
+    ],
+    "targetRoughness": 0.92179,
+    "afterRoughness": 0.9224999521282926,
+    "rgbError": 0.24889562988281,
+    "generatedResolution": 256
+  },
+  {
+    "id": "concrete_block_wall",
+    "gen": "masonry",
+    "review": "visual-sampled",
+    "targetRGB": [
+      69.172,
+      61.536,
+      50.351
+    ],
+    "beforeRGB": [
+      136.3056640625,
+      109.3955078125,
+      87.051513671875
+    ],
+    "afterRGB": [
+      69.45449829101562,
+      61.82127380371094,
+      50.57429504394531
+    ],
+    "targetRoughness": 0.92601,
+    "afterRoughness": 0.9260274849694802,
+    "rgbError": 0.28527380371093614,
+    "generatedResolution": 256
+  },
+  {
+    "id": "concrete_block_wall_02",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      59.535,
+      53.106,
+      46.819
+    ],
+    "beforeRGB": [
+      135.523193359375,
+      106.796875,
+      83.94384765625
+    ],
+    "afterRGB": [
+      59.77113342285156,
+      53.36625671386719,
+      47.09400939941406
+    ],
+    "targetRoughness": 0.96401,
+    "afterRoughness": 0.9639997295310649,
+    "rgbError": 0.2750093994140599,
+    "generatedResolution": 256
+  },
+  {
+    "id": "concrete_block_wall_03",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      73.852,
+      63.366,
+      50.769
+    ],
+    "beforeRGB": [
+      70.72900390625,
+      73.470947265625,
+      68.842041015625
+    ],
+    "afterRGB": [
+      72.78923034667969,
+      62.518310546875,
+      50.180938720703125
+    ],
+    "targetRoughness": 0.93569,
+    "afterRoughness": 0.9363749186199782,
+    "rgbError": 1.0627696533203164,
+    "generatedResolution": 256
+  },
+  {
+    "id": "concrete_brick_wall_001",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      151.516,
+      138.002,
+      120.789
+    ],
+    "beforeRGB": [
+      141.1904296875,
+      121.502197265625,
+      86.96630859375
+    ],
+    "afterRGB": [
+      151.3069610595703,
+      137.92428588867188,
+      120.84211730957031
+    ],
+    "targetRoughness": 0.76246,
+    "afterRoughness": 0.7623857086778708,
+    "rgbError": 0.20903894042967863,
+    "generatedResolution": 256
+  },
+  {
+    "id": "concrete_panels",
+    "gen": "ornament",
+    "review": "statistical",
+    "targetRGB": [
+      150.877,
+      131.266,
+      110.54
+    ],
+    "beforeRGB": [
+      138.621337890625,
+      105.56689453125,
+      82.0107421875
+    ],
+    "afterRGB": [
+      152.5303955078125,
+      132.817626953125,
+      111.95367431640625
+    ],
+    "targetRoughness": 0.94943,
+    "afterRoughness": 0.9497411989685987,
+    "rgbError": 1.6533955078124905,
+    "generatedResolution": 256
+  },
+  {
+    "id": "concrete_pavement",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      127.408,
+      116.387,
+      102.461
+    ],
+    "beforeRGB": [
+      142.435302734375,
+      122.938232421875,
+      88.37939453125
+    ],
+    "afterRGB": [
+      127.20355224609375,
+      116.38055419921875,
+      102.77491760253906
+    ],
+    "targetRoughness": 0.86223,
+    "afterRoughness": 0.8621703503183918,
+    "rgbError": 0.313917602539064,
+    "generatedResolution": 256
+  },
+  {
+    "id": "concrete_pavement_02",
+    "gen": "tiles",
+    "review": "statistical",
+    "targetRGB": [
+      134.15,
+      123.015,
+      110.757
+    ],
+    "beforeRGB": [
+      112.744384765625,
+      112.5302734375,
+      103.75341796875
+    ],
+    "afterRGB": [
+      134.8463897705078,
+      123.72163391113281,
+      111.42845153808594
+    ],
+    "targetRoughness": 0.78434,
+    "afterRoughness": 0.7841422885068939,
+    "rgbError": 0.7066339111328119,
+    "generatedResolution": 256
+  },
+  {
+    "id": "concrete_pavement_03",
+    "gen": "ornament",
+    "review": "statistical",
+    "targetRGB": [
+      74.927,
+      63.724,
+      53.654
+    ],
+    "beforeRGB": [
+      111.487060546875,
+      111.119873046875,
+      101.9033203125
+    ],
+    "afterRGB": [
+      74.96792602539062,
+      63.7830810546875,
+      53.72410583496094
+    ],
+    "targetRoughness": 0.92787,
+    "afterRoughness": 0.9289346133966221,
+    "rgbError": 0.07010583496093403,
+    "generatedResolution": 256
+  },
+  {
+    "id": "concrete_pavers",
+    "gen": "interlock",
+    "review": "statistical",
+    "targetRGB": [
+      103.218,
+      94.012,
+      82.802
+    ],
+    "beforeRGB": [
+      117.148193359375,
+      116.634765625,
+      106.86767578125
+    ],
+    "afterRGB": [
+      103.45672607421875,
+      94.28948974609375,
+      83.09815979003906
+    ],
+    "targetRoughness": 0.88975,
+    "afterRoughness": 0.8898585899195741,
+    "rgbError": 0.2961597900390558,
+    "generatedResolution": 256
+  },
+  {
+    "id": "concrete_pavers_02",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      113.896,
+      95.888,
+      79.817
+    ],
+    "beforeRGB": [
+      155.7421875,
+      121.90625,
+      92.758544921875
+    ],
+    "afterRGB": [
+      114.14764404296875,
+      96.08871459960938,
+      80.01675415039062
+    ],
+    "targetRoughness": 0.87406,
+    "afterRoughness": 0.8740516812194845,
+    "rgbError": 0.2516440429687492,
+    "generatedResolution": 256
+  },
+  {
+    "id": "concrete_pavers_03",
+    "gen": "interlock",
+    "review": "statistical",
+    "targetRGB": [
+      127.015,
+      105.79,
+      80.698
+    ],
+    "beforeRGB": [
+      130.108642578125,
+      103.0556640625,
+      75.06640625
+    ],
+    "afterRGB": [
+      127.41081237792969,
+      106.26017761230469,
+      80.97987365722656
+    ],
+    "targetRoughness": 0.93813,
+    "afterRoughness": 0.9382804721008032,
+    "rgbError": 0.47017761230468125,
+    "generatedResolution": 256
+  },
+  {
+    "id": "concrete_tile_facade",
+    "gen": "ornament",
+    "review": "statistical",
+    "targetRGB": [
+      54.478,
+      55.829,
+      60.22
+    ],
+    "beforeRGB": [
+      109.727783203125,
+      109.55712890625,
+      100.67041015625
+    ],
+    "afterRGB": [
+      54.53521728515625,
+      55.92008972167969,
+      60.34544372558594
+    ],
+    "targetRoughness": 0.50753,
+    "afterRoughness": 0.5087863697727985,
+    "rgbError": 0.12544372558593864,
+    "generatedResolution": 256
+  },
+  {
+    "id": "concrete_tiles",
+    "gen": "basket",
+    "review": "statistical",
+    "targetRGB": [
+      105.576,
+      89.52,
+      71
+    ],
+    "beforeRGB": [
+      137.24658203125,
+      102.960693359375,
+      79.934326171875
+    ],
+    "afterRGB": [
+      105.61270141601562,
+      89.60298156738281,
+      71.08274841308594
+    ],
+    "targetRoughness": 0.80771,
+    "afterRoughness": 0.8077941296153873,
+    "rgbError": 0.08298156738281648,
+    "generatedResolution": 256
+  },
+  {
+    "id": "concrete_tiles_02",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      103.263,
+      98.606,
+      92.261
+    ],
+    "beforeRGB": [
+      146.132080078125,
+      113.736328125,
+      87.6630859375
+    ],
+    "afterRGB": [
+      103.60401916503906,
+      99.02278137207031,
+      92.70968627929688
+    ],
+    "targetRoughness": 0.93826,
+    "afterRoughness": 0.9382684445847173,
+    "rgbError": 0.4486862792968793,
+    "generatedResolution": 256
+  },
+  {
+    "id": "dark_brick_wall",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      83.161,
+      70.696,
+      56.971
+    ],
+    "beforeRGB": [
+      139.583984375,
+      112.31005859375,
+      88.546630859375
+    ],
+    "afterRGB": [
+      84.04141235351562,
+      71.53436279296875,
+      57.679412841796875
+    ],
+    "targetRoughness": 0.81314,
+    "afterRoughness": 0.8132171630857211,
+    "rgbError": 0.8804123535156236,
+    "generatedResolution": 256
+  },
+  {
+    "id": "double_brick_floor",
+    "gen": "basket",
+    "review": "statistical",
+    "targetRGB": [
+      108.203,
+      68.258,
+      39.619
+    ],
+    "beforeRGB": [
+      139.4619140625,
+      106.171630859375,
+      82.65234375
+    ],
+    "afterRGB": [
+      108.616943359375,
+      68.33665466308594,
+      39.55909729003906
+    ],
+    "targetRoughness": 0.81503,
+    "afterRoughness": 0.8150941138169051,
+    "rgbError": 0.41394335937499704,
+    "generatedResolution": 256
+  },
+  {
+    "id": "exterior_wall_cladding",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      122.95,
+      115.959,
+      106.694
+    ],
+    "beforeRGB": [
+      131.92041015625,
+      106.246337890625,
+      81.9873046875
+    ],
+    "afterRGB": [
+      122.94972229003906,
+      115.96235656738281,
+      106.69624328613281
+    ],
+    "targetRoughness": 0.72736,
+    "afterRoughness": 0.7275063309008067,
+    "rgbError": 0.0033565673828093168,
+    "generatedResolution": 256
+  },
+  {
+    "id": "exterior_wall_cladding_02",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      95.09,
+      57.984,
+      41.401
+    ],
+    "beforeRGB": [
+      151.04296875,
+      118.242919921875,
+      90.8740234375
+    ],
+    "afterRGB": [
+      95.08940124511719,
+      57.98551940917969,
+      41.40118408203125
+    ],
+    "targetRoughness": 0.57262,
+    "afterRoughness": 0.5728544347427996,
+    "rgbError": 0.0015194091796857379,
+    "generatedResolution": 256
+  },
+  {
+    "id": "factory_brick",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      134.786,
+      108.42,
+      86.064
+    ],
+    "beforeRGB": [
+      142.0087890625,
+      116.421142578125,
+      94.663330078125
+    ],
+    "afterRGB": [
+      136.4794464111328,
+      109.82765197753906,
+      87.23947143554688
+    ],
+    "targetRoughness": 0.82054,
+    "afterRoughness": 0.8205140356922642,
+    "rgbError": 1.6934464111328111,
+    "generatedResolution": 256
+  },
+  {
+    "id": "floor_bricks_02",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      112.708,
+      111.103,
+      98.217
+    ],
+    "beforeRGB": [
+      118.33203125,
+      92.818359375,
+      68.403076171875
+    ],
+    "afterRGB": [
+      113.81332397460938,
+      112.46064758300781,
+      99.58172607421875
+    ],
+    "targetRoughness": 0.74229,
+    "afterRoughness": 0.7425097895601452,
+    "rgbError": 1.3647260742187513,
+    "generatedResolution": 256
+  },
+  {
+    "id": "floor_klinkers_01",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      144.038,
+      124.098,
+      84.893
+    ],
+    "beforeRGB": [
+      117.0087890625,
+      93.4951171875,
+      68.361572265625
+    ],
+    "afterRGB": [
+      144.0456085205078,
+      124.09687805175781,
+      84.89276123046875
+    ],
+    "targetRoughness": 0.69427,
+    "afterRoughness": 0.6933737362130417,
+    "rgbError": 0.007608520507801586,
+    "generatedResolution": 256
+  },
+  {
+    "id": "floor_klinkers_04",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      124.144,
+      106.69,
+      81.217
+    ],
+    "beforeRGB": [
+      130.62255859375,
+      105.227294921875,
+      76.705810546875
+    ],
+    "afterRGB": [
+      125.02944946289062,
+      107.66372680664062,
+      81.78556823730469
+    ],
+    "targetRoughness": 0.68332,
+    "afterRoughness": 0.6838239482802968,
+    "rgbError": 0.9737268066406273,
+    "generatedResolution": 256
+  },
+  {
+    "id": "floor_pavement",
+    "gen": "tiles",
+    "review": "statistical",
+    "targetRGB": [
+      136.13,
+      125.046,
+      110.439
+    ],
+    "beforeRGB": [
+      113.0732421875,
+      112.61181640625,
+      103.59521484375
+    ],
+    "afterRGB": [
+      136.87835693359375,
+      125.81317138671875,
+      111.11087036132812
+    ],
+    "targetRoughness": 0.80507,
+    "afterRoughness": 0.8051310819741765,
+    "rgbError": 0.7671713867187435,
+    "generatedResolution": 256
+  },
+  {
+    "id": "floor_tiles_09",
+    "gen": "tiles",
+    "review": "statistical",
+    "targetRGB": [
+      123.146,
+      107.848,
+      90.12
+    ],
+    "beforeRGB": [
+      116.778076171875,
+      115.787353515625,
+      105.878173828125
+    ],
+    "afterRGB": [
+      123.75802612304688,
+      108.41867065429688,
+      90.60285949707031
+    ],
+    "targetRoughness": 0.52359,
+    "afterRoughness": 0.5233910654106361,
+    "rgbError": 0.6120261230468742,
+    "generatedResolution": 256
+  },
+  {
+    "id": "grass_concrete_pavement",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      164.784,
+      149.266,
+      128.224
+    ],
+    "beforeRGB": [
+      127.86474609375,
+      101.635009765625,
+      73.998291015625
+    ],
+    "afterRGB": [
+      165.92349243164062,
+      150.34616088867188,
+      129.23216247558594
+    ],
+    "targetRoughness": 0.72969,
+    "afterRoughness": 0.7296504600368867,
+    "rgbError": 1.1394924316406332,
+    "generatedResolution": 256
+  },
+  {
+    "id": "grey_tiles",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      110.008,
+      96.174,
+      73.049
+    ],
+    "beforeRGB": [
+      131.527099609375,
+      100.332275390625,
+      79.5625
+    ],
+    "afterRGB": [
+      109.41648864746094,
+      95.65765380859375,
+      72.63821411132812
+    ],
+    "targetRoughness": 0.82241,
+    "afterRoughness": 0.8223609475524037,
+    "rgbError": 0.5915113525390581,
+    "generatedResolution": 256
+  },
+  {
+    "id": "herringbone_brick",
+    "gen": "herringbone",
+    "review": "statistical",
+    "targetRGB": [
+      79.713,
+      60.008,
+      44.14
+    ],
+    "beforeRGB": [
+      142.024169921875,
+      114.2021484375,
+      90.5576171875
+    ],
+    "afterRGB": [
+      80.82012939453125,
+      60.625244140625,
+      44.383026123046875
+    ],
+    "targetRoughness": 0.87861,
+    "afterRoughness": 0.8761412377447392,
+    "rgbError": 1.1071293945312561,
+    "generatedResolution": 256
+  },
+  {
+    "id": "herringbone_brick_02",
+    "gen": "herringbone",
+    "review": "statistical",
+    "targetRGB": [
+      127.073,
+      111.87,
+      89.181
+    ],
+    "beforeRGB": [
+      73.451904296875,
+      75.703125,
+      69.979736328125
+    ],
+    "afterRGB": [
+      127.07341003417969,
+      111.86622619628906,
+      89.18081665039062
+    ],
+    "targetRoughness": 0.93621,
+    "afterRoughness": 0.9362847421685478,
+    "rgbError": 0.0037738037109420475,
+    "generatedResolution": 256
+  },
+  {
+    "id": "herringbone_brick_03",
+    "gen": "herringbone",
+    "review": "statistical",
+    "targetRGB": [
+      123.045,
+      89.578,
+      72.901
+    ],
+    "beforeRGB": [
+      140.7412109375,
+      113.114501953125,
+      89.82373046875
+    ],
+    "afterRGB": [
+      123.04446411132812,
+      89.57882690429688,
+      72.89865112304688
+    ],
+    "targetRoughness": 0.92781,
+    "afterRoughness": 0.9287498324530052,
+    "rgbError": 0.0023488769531212483,
+    "generatedResolution": 256
+  },
+  {
+    "id": "herringbone_concrete_tile",
+    "gen": "herringbone",
+    "review": "statistical",
+    "targetRGB": [
+      137.5,
+      130.659,
+      119.264
+    ],
+    "beforeRGB": [
+      141.636474609375,
+      113.171875,
+      89.51025390625
+    ],
+    "afterRGB": [
+      136.83480834960938,
+      130.09323120117188,
+      118.77827453613281
+    ],
+    "targetRoughness": 0.93327,
+    "afterRoughness": 0.9332809149056268,
+    "rgbError": 0.665191650390625,
+    "generatedResolution": 256
+  },
+  {
+    "id": "herringbone_concrete_tile_02",
+    "gen": "herringbone",
+    "review": "statistical",
+    "targetRGB": [
+      86.194,
+      77.564,
+      67.207
+    ],
+    "beforeRGB": [
+      140.538330078125,
+      112.35986328125,
+      89.13671875
+    ],
+    "afterRGB": [
+      85.91313171386719,
+      77.35037231445312,
+      67.01864624023438
+    ],
+    "targetRoughness": 0.93585,
+    "afterRoughness": 0.9366745294310599,
+    "rgbError": 0.2808682861328151,
+    "generatedResolution": 256
+  },
+  {
+    "id": "herringbone_concrete_tile_03",
+    "gen": "herringbone",
+    "review": "statistical",
+    "targetRGB": [
+      92.473,
+      85.899,
+      77.983
+    ],
+    "beforeRGB": [
+      73.7109375,
+      75.8896484375,
+      70.113525390625
+    ],
+    "afterRGB": [
+      91.55731201171875,
+      85.06063842773438,
+      77.27214050292969
+    ],
+    "targetRoughness": 0.93443,
+    "afterRoughness": 0.9346149519382339,
+    "rgbError": 0.915687988281249,
+    "generatedResolution": 256
+  },
+  {
+    "id": "herringbone_pavement",
+    "gen": "herringbone",
+    "review": "statistical",
+    "targetRGB": [
+      90.121,
+      78.198,
+      64.443
+    ],
+    "beforeRGB": [
+      133.1396484375,
+      110.846435546875,
+      86.950927734375
+    ],
+    "afterRGB": [
+      90.12336730957031,
+      78.19871520996094,
+      64.44529724121094
+    ],
+    "targetRoughness": 0.8425,
+    "afterRoughness": 0.8424655689914868,
+    "rgbError": 0.0023673095703173885,
+    "generatedResolution": 256
+  },
+  {
+    "id": "herringbone_pavement_02",
+    "gen": "herringbone",
+    "review": "statistical",
+    "targetRGB": [
+      116.752,
+      97.835,
+      83.669
+    ],
+    "beforeRGB": [
+      140.677490234375,
+      112.49853515625,
+      89.270751953125
+    ],
+    "afterRGB": [
+      118.4755859375,
+      98.88819885253906,
+      84.71885681152344
+    ],
+    "targetRoughness": 0.93525,
+    "afterRoughness": 0.9352880141317678,
+    "rgbError": 1.7235859375000047,
+    "generatedResolution": 256
+  },
+  {
+    "id": "herringbone_pavement_03",
+    "gen": "herringbone",
+    "review": "statistical",
+    "targetRGB": [
+      66.857,
+      58.841,
+      49.041
+    ],
+    "beforeRGB": [
+      140.3525390625,
+      112.37451171875,
+      89.26611328125
+    ],
+    "afterRGB": [
+      68.45301818847656,
+      60.398712158203125,
+      50.80924987792969
+    ],
+    "targetRoughness": 0.86733,
+    "afterRoughness": 0.8669137393729168,
+    "rgbError": 1.7682498779296907,
+    "generatedResolution": 256
+  },
+  {
+    "id": "herringbone_pavement_04",
+    "gen": "herringbone",
+    "review": "statistical",
+    "targetRGB": [
+      84.543,
+      76.384,
+      63.86
+    ],
+    "beforeRGB": [
+      140.7138671875,
+      112.39306640625,
+      89.10498046875
+    ],
+    "afterRGB": [
+      85.24308776855469,
+      77.03871154785156,
+      64.52876281738281
+    ],
+    "targetRoughness": 0.91793,
+    "afterRoughness": 0.9179993872538081,
+    "rgbError": 0.7000877685546811,
+    "generatedResolution": 256
+  },
+  {
+    "id": "hexagonal_concrete_paving",
+    "gen": "hexagon",
+    "review": "visual-sampled",
+    "targetRGB": [
+      168.799,
+      153.786,
+      132.281
+    ],
+    "beforeRGB": [
+      73.013427734375,
+      75.870849609375,
+      70.958251953125
+    ],
+    "afterRGB": [
+      168.78555297851562,
+      153.7847442626953,
+      132.28305053710938
+    ],
+    "targetRoughness": 0.87179,
+    "afterRoughness": 0.8712207868984442,
+    "rgbError": 0.013447021484381594,
+    "generatedResolution": 256
+  },
+  {
+    "id": "interlocking_concrete_pavers",
+    "gen": "interlock",
+    "review": "statistical",
+    "targetRGB": [
+      104.795,
+      79.58,
+      59.618
+    ],
+    "beforeRGB": [
+      106.1064453125,
+      106.609375,
+      98.05908203125
+    ],
+    "afterRGB": [
+      104.4879150390625,
+      79.14224243164062,
+      59.177215576171875
+    ],
+    "targetRoughness": 0.86008,
+    "afterRoughness": 0.8606852811922289,
+    "rgbError": 0.4407844238281271,
+    "generatedResolution": 256
+  },
+  {
+    "id": "japanese_stone_wall",
+    "gen": "organicstone",
+    "review": "statistical",
+    "targetRGB": [
+      124.114,
+      119.736,
+      111.028
+    ],
+    "beforeRGB": [
+      135.0947265625,
+      104.341064453125,
+      82.152587890625
+    ],
+    "afterRGB": [
+      125.06463623046875,
+      120.78019714355469,
+      112.0928955078125
+    ],
+    "targetRoughness": 0.78881,
+    "afterRoughness": 0.7887847900389432,
+    "rgbError": 1.0648955078124942,
+    "generatedResolution": 256
+  },
+  {
+    "id": "large_floor_tiles_02",
+    "gen": "tiles",
+    "review": "statistical",
+    "targetRGB": [
+      117.403,
+      118.346,
+      114.852
+    ],
+    "beforeRGB": [
+      143.82568359375,
+      108.39404296875,
+      83.496337890625
+    ],
+    "afterRGB": [
+      118.17422485351562,
+      119.21478271484375,
+      115.71681213378906
+    ],
+    "targetRoughness": 0.83553,
+    "afterRoughness": 0.8354494581034106,
+    "rgbError": 0.8687827148437464,
+    "generatedResolution": 256
+  },
+  {
+    "id": "large_red_bricks",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      169.209,
+      115.697,
+      82.37
+    ],
+    "beforeRGB": [
+      137.714599609375,
+      108.47412109375,
+      85.100341796875
+    ],
+    "afterRGB": [
+      169.20713806152344,
+      115.69625854492188,
+      82.36862182617188
+    ],
+    "targetRoughness": 0.98751,
+    "afterRoughness": 0.9873309565523004,
+    "rgbError": 0.0018619384765656832,
+    "generatedResolution": 256
+  },
+  {
+    "id": "large_sandstone_blocks",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      85.603,
+      83.114,
+      74.655
+    ],
+    "beforeRGB": [
+      146.813232421875,
+      113.996337890625,
+      87.833251953125
+    ],
+    "afterRGB": [
+      85.60588073730469,
+      83.11311340332031,
+      74.658203125
+    ],
+    "targetRoughness": 0.82216,
+    "afterRoughness": 0.8221334419996625,
+    "rgbError": 0.003203124999998863,
+    "generatedResolution": 256
+  },
+  {
+    "id": "large_sandstone_blocks_01",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      146.251,
+      133.085,
+      104.239
+    ],
+    "beforeRGB": [
+      123.701171875,
+      100.03857421875,
+      72.684814453125
+    ],
+    "afterRGB": [
+      146.9444122314453,
+      133.8134765625,
+      104.82789611816406
+    ],
+    "targetRoughness": 0.87766,
+    "afterRoughness": 0.8775918399583149,
+    "rgbError": 0.728476562499992,
+    "generatedResolution": 256
+  },
+  {
+    "id": "large_square_pattern_01",
+    "gen": "tiles",
+    "review": "statistical",
+    "targetRGB": [
+      124.147,
+      119.857,
+      108.267
+    ],
+    "beforeRGB": [
+      108.284912109375,
+      109.72412109375,
+      95.997802734375
+    ],
+    "afterRGB": [
+      124.27426147460938,
+      120.19931030273438,
+      108.22015380859375
+    ],
+    "targetRoughness": 0.87909,
+    "afterRoughness": 0.8795521455649744,
+    "rgbError": 0.3423103027343757,
+    "generatedResolution": 256
+  },
+  {
+    "id": "medieval_blocks_02",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      171.583,
+      135.332,
+      106.136
+    ],
+    "beforeRGB": [
+      140.47265625,
+      109.89208984375,
+      86.23193359375
+    ],
+    "afterRGB": [
+      172.97035217285156,
+      136.25318908691406,
+      106.71121215820312
+    ],
+    "targetRoughness": 0.70548,
+    "afterRoughness": 0.7050377939260791,
+    "rgbError": 1.387352172851564,
+    "generatedResolution": 256
+  },
+  {
+    "id": "medieval_blocks_03",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      118.52,
+      105.938,
+      87.672
+    ],
+    "beforeRGB": [
+      139.986328125,
+      129.448974609375,
+      104.73388671875
+    ],
+    "afterRGB": [
+      120.50936889648438,
+      107.80018615722656,
+      89.47990417480469
+    ],
+    "targetRoughness": 0.93751,
+    "afterRoughness": 0.9374502144607193,
+    "rgbError": 1.989368896484379,
+    "generatedResolution": 256
+  },
+  {
+    "id": "medieval_blocks_06",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      147.008,
+      119.673,
+      94.82
+    ],
+    "beforeRGB": [
+      136.4912109375,
+      108.12060546875,
+      85.4462890625
+    ],
+    "afterRGB": [
+      148.3315887451172,
+      120.81767272949219,
+      95.80142211914062
+    ],
+    "targetRoughness": 0.88404,
+    "afterRoughness": 0.884215411017576,
+    "rgbError": 1.3235887451171777,
+    "generatedResolution": 256
+  },
+  {
+    "id": "medieval_red_brick",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      129.854,
+      98.911,
+      79.621
+    ],
+    "beforeRGB": [
+      135.826904296875,
+      106.930419921875,
+      84.3505859375
+    ],
+    "afterRGB": [
+      131.36550903320312,
+      100.30598449707031,
+      80.89591979980469
+    ],
+    "targetRoughness": 0.93748,
+    "afterRoughness": 0.9378863166357921,
+    "rgbError": 1.5115090332031116,
+    "generatedResolution": 256
+  },
+  {
+    "id": "mixed_brick_wall",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      131.659,
+      113.605,
+      95.988
+    ],
+    "beforeRGB": [
+      135.74072265625,
+      108.382080078125,
+      84.9453125
+    ],
+    "afterRGB": [
+      131.6635284423828,
+      113.60684204101562,
+      95.98915100097656
+    ],
+    "targetRoughness": 0.83337,
+    "afterRoughness": 0.8333246567669867,
+    "rgbError": 0.0045284423828206855,
+    "generatedResolution": 256
+  },
+  {
+    "id": "mossy_brick",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      38.33,
+      31.163,
+      12.601
+    ],
+    "beforeRGB": [
+      129.916015625,
+      103.981201171875,
+      76.105712890625
+    ],
+    "afterRGB": [
+      38.198272705078125,
+      31.074020385742188,
+      12.527633666992188
+    ],
+    "targetRoughness": 0.97901,
+    "afterRoughness": 0.9789933746923571,
+    "rgbError": 0.1317272949218733,
+    "generatedResolution": 256
+  },
+  {
+    "id": "mossy_brick_floor",
+    "gen": "herringbone",
+    "review": "statistical",
+    "targetRGB": [
+      139.493,
+      109.27,
+      84.059
+    ],
+    "beforeRGB": [
+      124.66845703125,
+      101.898681640625,
+      74.693603515625
+    ],
+    "afterRGB": [
+      141.3244171142578,
+      110.24784851074219,
+      85.22111511230469
+    ],
+    "targetRoughness": 0.85433,
+    "afterRoughness": 0.8545821245969359,
+    "rgbError": 1.8314171142578175,
+    "generatedResolution": 256
+  },
+  {
+    "id": "mossy_sandstone",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      114.974,
+      99.643,
+      70.981
+    ],
+    "beforeRGB": [
+      122.1884765625,
+      97.52294921875,
+      71.54052734375
+    ],
+    "afterRGB": [
+      116.82650756835938,
+      101.29632568359375,
+      72.22673034667969
+    ],
+    "targetRoughness": 0.80717,
+    "afterRoughness": 0.8070909088738808,
+    "rgbError": 1.8525075683593712,
+    "generatedResolution": 256
+  },
+  {
+    "id": "old_sandstone_02",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      136.66,
+      104.325,
+      62.214
+    ],
+    "beforeRGB": [
+      144.253173828125,
+      110.384765625,
+      84.013916015625
+    ],
+    "afterRGB": [
+      137.009033203125,
+      104.58894348144531,
+      62.34019470214844
+    ],
+    "targetRoughness": 0.83785,
+    "afterRoughness": 0.8378088259232158,
+    "rgbError": 0.3490332031250034,
+    "generatedResolution": 256
+  },
+  {
+    "id": "overgrown_concrete_pavers",
+    "gen": "tiles",
+    "review": "statistical",
+    "targetRGB": [
+      129.142,
+      103.714,
+      82.151
+    ],
+    "beforeRGB": [
+      122.914794921875,
+      95.6240234375,
+      68.57275390625
+    ],
+    "afterRGB": [
+      129.63087463378906,
+      104.04936218261719,
+      82.44465637207031
+    ],
+    "targetRoughness": 0.93925,
+    "afterRoughness": 0.9390146292889106,
+    "rgbError": 0.4888746337890666,
+    "generatedResolution": 256
+  },
+  {
+    "id": "painted_brick",
+    "gen": "masonry",
+    "review": "visual-sampled",
+    "targetRGB": [
+      119.748,
+      158.812,
+      170.366
+    ],
+    "beforeRGB": [
+      120.55322265625,
+      162.08935546875,
+      175.052734375
+    ],
+    "afterRGB": [
+      119.93728637695312,
+      161.2265625,
+      174.04489135742188
+    ],
+    "targetRoughness": 0.9333,
+    "afterRoughness": 0.9349520215797298,
+    "rgbError": 3.678891357421861,
+    "generatedResolution": 256
+  },
+  {
+    "id": "painted_worn_brick",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      170.543,
+      157.008,
+      119.79
+    ],
+    "beforeRGB": [
+      188.08203125,
+      168.622314453125,
+      109.82861328125
+    ],
+    "afterRGB": [
+      170.2340545654297,
+      156.72332763671875,
+      119.5655517578125
+    ],
+    "targetRoughness": 0.71791,
+    "afterRoughness": 0.7179675532323497,
+    "rgbError": 0.30894543457031887,
+    "generatedResolution": 256
+  },
+  {
+    "id": "patterned_brick_floor",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      131.712,
+      127.995,
+      121.026
+    ],
+    "beforeRGB": [
+      140.9345703125,
+      110.259521484375,
+      85.8125
+    ],
+    "afterRGB": [
+      133.14694213867188,
+      129.57862854003906,
+      122.66668701171875
+    ],
+    "targetRoughness": 0.8146,
+    "afterRoughness": 0.8145666384225573,
+    "rgbError": 1.6406870117187538,
+    "generatedResolution": 256
+  },
+  {
+    "id": "patterned_brick_floor_02",
+    "gen": "basket",
+    "review": "statistical",
+    "targetRGB": [
+      133.67,
+      116.625,
+      100.429
+    ],
+    "beforeRGB": [
+      154.694580078125,
+      133.544921875,
+      95.099609375
+    ],
+    "afterRGB": [
+      134.21856689453125,
+      117.02595520019531,
+      100.76435852050781
+    ],
+    "targetRoughness": 0.77804,
+    "afterRoughness": 0.7778965370331906,
+    "rgbError": 0.5485668945312625,
+    "generatedResolution": 256
+  },
+  {
+    "id": "patterned_brick_floor_03",
+    "gen": "basket",
+    "review": "statistical",
+    "targetRGB": [
+      105.61,
+      84.787,
+      63.734
+    ],
+    "beforeRGB": [
+      139.40771484375,
+      106.859375,
+      83.1396484375
+    ],
+    "afterRGB": [
+      106.85606384277344,
+      85.69023132324219,
+      64.36308288574219
+    ],
+    "targetRoughness": 0.8893,
+    "afterRoughness": 0.8891614128552524,
+    "rgbError": 1.246063842773438,
+    "generatedResolution": 256
+  },
+  {
+    "id": "patterned_brick_wall",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      122.443,
+      91.522,
+      61.218
+    ],
+    "beforeRGB": [
+      131.40673828125,
+      102.7431640625,
+      81.34619140625
+    ],
+    "afterRGB": [
+      123.54881286621094,
+      92.41206359863281,
+      61.80201721191406
+    ],
+    "targetRoughness": 0.80132,
+    "afterRoughness": 0.8013522279034989,
+    "rgbError": 1.1058128662109397,
+    "generatedResolution": 256
+  },
+  {
+    "id": "patterned_brick_wall_02",
+    "gen": "ornament",
+    "review": "statistical",
+    "targetRGB": [
+      93.782,
+      81.909,
+      73.143
+    ],
+    "beforeRGB": [
+      140.7001953125,
+      111.625732421875,
+      89.47021484375
+    ],
+    "afterRGB": [
+      94.3095703125,
+      82.43946838378906,
+      73.6800537109375
+    ],
+    "targetRoughness": 0.76344,
+    "afterRoughness": 0.763378786572327,
+    "rgbError": 0.5370537109374993,
+    "generatedResolution": 256
+  },
+  {
+    "id": "patterned_brick_wall_03",
+    "gen": "ornament",
+    "review": "statistical",
+    "targetRGB": [
+      90.317,
+      84.473,
+      77.948
+    ],
+    "beforeRGB": [
+      90.11669921875,
+      77.37060546875,
+      62.57275390625
+    ],
+    "afterRGB": [
+      91.06344604492188,
+      85.29280090332031,
+      78.78936767578125
+    ],
+    "targetRoughness": 0.91999,
+    "afterRoughness": 0.9199306114035163,
+    "rgbError": 0.8413676757812567,
+    "generatedResolution": 256
+  },
+  {
+    "id": "patterned_concrete_pavers",
+    "gen": "interlock",
+    "review": "statistical",
+    "targetRGB": [
+      134.84,
+      124.157,
+      108.785
+    ],
+    "beforeRGB": [
+      140.262939453125,
+      107.955078125,
+      84.424560546875
+    ],
+    "afterRGB": [
+      134.9524383544922,
+      124.26152038574219,
+      108.8563232421875
+    ],
+    "targetRoughness": 0.72561,
+    "afterRoughness": 0.725746304380582,
+    "rgbError": 0.11243835449218409,
+    "generatedResolution": 256
+  },
+  {
+    "id": "patterned_concrete_pavers_02",
+    "gen": "ornament",
+    "review": "statistical",
+    "targetRGB": [
+      109.08,
+      81.009,
+      59.577
+    ],
+    "beforeRGB": [
+      119.3134765625,
+      95.906494140625,
+      68.29931640625
+    ],
+    "afterRGB": [
+      109.50227355957031,
+      81.27516174316406,
+      59.78810119628906
+    ],
+    "targetRoughness": 0.91381,
+    "afterRoughness": 0.9137871835735746,
+    "rgbError": 0.4222735595703142,
+    "generatedResolution": 256
+  },
+  {
+    "id": "patterned_concrete_wall",
+    "gen": "ornament",
+    "review": "statistical",
+    "targetRGB": [
+      137.178,
+      122.695,
+      106.302
+    ],
+    "beforeRGB": [
+      114.398681640625,
+      113.8388671875,
+      104.28076171875
+    ],
+    "afterRGB": [
+      137.51220703125,
+      123.02500915527344,
+      106.60671997070312
+    ],
+    "targetRoughness": 0.92718,
+    "afterRoughness": 0.9276980530988467,
+    "rgbError": 0.33420703125000273,
+    "generatedResolution": 256
+  },
+  {
+    "id": "pavement_02",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      149.859,
+      127.926,
+      105.565
+    ],
+    "beforeRGB": [
+      125.139404296875,
+      96.60888671875,
+      77.8896484375
+    ],
+    "afterRGB": [
+      151.31776428222656,
+      129.25546264648438,
+      106.70448303222656
+    ],
+    "targetRoughness": 0.73793,
+    "afterRoughness": 0.7379395129636458,
+    "rgbError": 1.4587642822265536,
+    "generatedResolution": 256
+  },
+  {
+    "id": "pavement_03",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      126.852,
+      109.566,
+      93.872
+    ],
+    "beforeRGB": [
+      124.515380859375,
+      95.328125,
+      76.45166015625
+    ],
+    "afterRGB": [
+      127.98907470703125,
+      110.60472106933594,
+      94.82969665527344
+    ],
+    "targetRoughness": 0.79935,
+    "afterRoughness": 0.7993142520684506,
+    "rgbError": 1.1370747070312461,
+    "generatedResolution": 256
+  },
+  {
+    "id": "pavement_04",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      71.562,
+      65.009,
+      54.864
+    ],
+    "beforeRGB": [
+      58.04150390625,
+      61.798828125,
+      58.535400390625
+    ],
+    "afterRGB": [
+      71.56074523925781,
+      65.0096435546875,
+      54.86175537109375
+    ],
+    "targetRoughness": 0.83355,
+    "afterRoughness": 0.8341366636991472,
+    "rgbError": 0.0022446289062472147,
+    "generatedResolution": 256
+  },
+  {
+    "id": "pavement_06",
+    "gen": "interlock",
+    "review": "statistical",
+    "targetRGB": [
+      99.166,
+      82.772,
+      68.97
+    ],
+    "beforeRGB": [
+      139.9931640625,
+      107.938232421875,
+      84.743408203125
+    ],
+    "afterRGB": [
+      99.07817077636719,
+      82.73324584960938,
+      68.91085815429688
+    ],
+    "targetRoughness": 0.81929,
+    "afterRoughness": 0.8194130691816656,
+    "rgbError": 0.08782922363280932,
+    "generatedResolution": 256
+  },
+  {
+    "id": "pebble_bricks",
+    "gen": "herringbone",
+    "review": "statistical",
+    "targetRGB": [
+      88.311,
+      77.61,
+      62.254
+    ],
+    "beforeRGB": [
+      142.13818359375,
+      114.0009765625,
+      90.357666015625
+    ],
+    "afterRGB": [
+      87.76412963867188,
+      77.10566711425781,
+      61.86653137207031
+    ],
+    "targetRoughness": 0.87776,
+    "afterRoughness": 0.876542873008289,
+    "rgbError": 0.546870361328132,
+    "generatedResolution": 256
+  },
+  {
+    "id": "pebble_embedded_concrete_02",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      54.183,
+      49.565,
+      42.654
+    ],
+    "beforeRGB": [
+      107.22265625,
+      107.80712890625,
+      99.686279296875
+    ],
+    "afterRGB": [
+      53.25746154785156,
+      48.82606506347656,
+      42.15031433105469
+    ],
+    "targetRoughness": 0.68662,
+    "afterRoughness": 0.6862061145257033,
+    "rgbError": 0.9255384521484373,
+    "generatedResolution": 256
+  },
+  {
+    "id": "precast_stone_paving",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      115.32,
+      101.906,
+      81.247
+    ],
+    "beforeRGB": [
+      105.496337890625,
+      106.36279296875,
+      91.5244140625
+    ],
+    "afterRGB": [
+      114.08357238769531,
+      100.8885498046875,
+      80.36772155761719
+    ],
+    "targetRoughness": 0.77653,
+    "afterRoughness": 0.7765363506239671,
+    "rgbError": 1.2364276123046807,
+    "generatedResolution": 256
+  },
+  {
+    "id": "random_bricks_thick",
+    "gen": "masonry",
+    "review": "visual-sampled",
+    "targetRGB": [
+      113.383,
+      105.614,
+      92.542
+    ],
+    "beforeRGB": [
+      127.744140625,
+      103.40576171875,
+      73.099365234375
+    ],
+    "afterRGB": [
+      115.32460021972656,
+      107.43460083007812,
+      94.43968200683594
+    ],
+    "targetRoughness": 0.52789,
+    "afterRoughness": 0.5273360308478355,
+    "rgbError": 1.941600219726567,
+    "generatedResolution": 256
+  },
+  {
+    "id": "rectangular_facade_tiles",
+    "gen": "ornament",
+    "review": "statistical",
+    "targetRGB": [
+      88.104,
+      85.613,
+      79.078
+    ],
+    "beforeRGB": [
+      67.0595703125,
+      70.573974609375,
+      66.66064453125
+    ],
+    "afterRGB": [
+      88.16642761230469,
+      85.72238159179688,
+      79.20750427246094
+    ],
+    "targetRoughness": 0.9341,
+    "afterRoughness": 0.934114224303505,
+    "rgbError": 0.12950427246093454,
+    "generatedResolution": 256
+  },
+  {
+    "id": "rectangular_facade_tiles_02",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      103.908,
+      90.446,
+      82.784
+    ],
+    "beforeRGB": [
+      149.5478515625,
+      131.12060546875,
+      95.55810546875
+    ],
+    "afterRGB": [
+      103.9091796875,
+      90.44427490234375,
+      82.78346252441406
+    ],
+    "targetRoughness": 0.75238,
+    "afterRoughness": 0.7504436418119775,
+    "rgbError": 0.0017250976562479536,
+    "generatedResolution": 256
+  },
+  {
+    "id": "recycled_brick_floor",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      92.05,
+      73.614,
+      56.398
+    ],
+    "beforeRGB": [
+      142.993408203125,
+      117.9619140625,
+      93.428955078125
+    ],
+    "afterRGB": [
+      92.359130859375,
+      73.87620544433594,
+      56.60539245605469
+    ],
+    "targetRoughness": 0.89661,
+    "afterRoughness": 0.8969711602908921,
+    "rgbError": 0.30913085937500284,
+    "generatedResolution": 256
+  },
+  {
+    "id": "red_brick",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      142.152,
+      102.794,
+      80.388
+    ],
+    "beforeRGB": [
+      158.638916015625,
+      125.09326171875,
+      95.4375
+    ],
+    "afterRGB": [
+      142.45285034179688,
+      103.49916076660156,
+      81.25674438476562
+    ],
+    "targetRoughness": 0.92317,
+    "afterRoughness": 0.9232333314181438,
+    "rgbError": 0.8687443847656198,
+    "generatedResolution": 256
+  },
+  {
+    "id": "red_brick_03",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      106.25,
+      83.482,
+      75.229
+    ],
+    "beforeRGB": [
+      141.699462890625,
+      113.0966796875,
+      90.050048828125
+    ],
+    "afterRGB": [
+      107.12208557128906,
+      84.07322692871094,
+      75.82333374023438
+    ],
+    "targetRoughness": 0.53166,
+    "afterRoughness": 0.5314099480124408,
+    "rgbError": 0.8720855712890625,
+    "generatedResolution": 256
+  },
+  {
+    "id": "red_brick_pavers",
+    "gen": "interlock",
+    "review": "statistical",
+    "targetRGB": [
+      116.063,
+      63.698,
+      50.422
+    ],
+    "beforeRGB": [
+      145.2578125,
+      111.4189453125,
+      86.14013671875
+    ],
+    "afterRGB": [
+      115.93150329589844,
+      63.49153137207031,
+      50.26863098144531
+    ],
+    "targetRoughness": 0.89134,
+    "afterRoughness": 0.8914254581219847,
+    "rgbError": 0.2064686279296879,
+    "generatedResolution": 256
+  },
+  {
+    "id": "red_bricks_02",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      133.629,
+      116.493,
+      93.42
+    ],
+    "beforeRGB": [
+      191.873779296875,
+      181.9912109375,
+      155.034912109375
+    ],
+    "afterRGB": [
+      133.791259765625,
+      116.62979125976562,
+      93.53839111328125
+    ],
+    "targetRoughness": 0.99184,
+    "afterRoughness": 0.99164961272607,
+    "rgbError": 0.16225976562500932,
+    "generatedResolution": 256
+  },
+  {
+    "id": "red_bricks_04",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      96.865,
+      58.874,
+      29.156
+    ],
+    "beforeRGB": [
+      137.346923828125,
+      107.389404296875,
+      84.2431640625
+    ],
+    "afterRGB": [
+      96.86082458496094,
+      58.87358093261719,
+      29.157211303710938
+    ],
+    "targetRoughness": 0.79708,
+    "afterRoughness": 0.7966244566673231,
+    "rgbError": 0.004175415039057384,
+    "generatedResolution": 256
+  },
+  {
+    "id": "red_sandstone_pavement",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      101.953,
+      89.038,
+      75.423
+    ],
+    "beforeRGB": [
+      137.18505859375,
+      107.398193359375,
+      84.430419921875
+    ],
+    "afterRGB": [
+      102.1495361328125,
+      89.23530578613281,
+      75.60661315917969
+    ],
+    "targetRoughness": 0.71944,
+    "afterRoughness": 0.7190167595357163,
+    "rgbError": 0.1973057861328158,
+    "generatedResolution": 256
+  },
+  {
+    "id": "red_sandstone_tiles",
+    "gen": "tiles",
+    "review": "statistical",
+    "targetRGB": [
+      58.776,
+      52.235,
+      47.005
+    ],
+    "beforeRGB": [
+      137.06201171875,
+      102.7890625,
+      79.869384765625
+    ],
+    "afterRGB": [
+      58.810211181640625,
+      52.24162292480469,
+      47.04066467285156
+    ],
+    "targetRoughness": 0.97392,
+    "afterRoughness": 0.974033430509918,
+    "rgbError": 0.03566467285155994,
+    "generatedResolution": 256
+  },
+  {
+    "id": "red_sandstone_wall",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      141.522,
+      125.794,
+      108.013
+    ],
+    "beforeRGB": [
+      131.5439453125,
+      105.33935546875,
+      86.662109375
+    ],
+    "afterRGB": [
+      142.21585083007812,
+      126.47775268554688,
+      108.65341186523438
+    ],
+    "targetRoughness": 0.83724,
+    "afterRoughness": 0.837282846487827,
+    "rgbError": 0.6938508300781336,
+    "generatedResolution": 256
+  },
+  {
+    "id": "rough_block_wall",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      129.812,
+      118.645,
+      95.959
+    ],
+    "beforeRGB": [
+      135.446044921875,
+      112.884033203125,
+      91.072998046875
+    ],
+    "afterRGB": [
+      131.38523864746094,
+      120.25241088867188,
+      97.30584716796875
+    ],
+    "targetRoughness": 0.92728,
+    "afterRoughness": 0.9273092830879642,
+    "rgbError": 1.607410888671879,
+    "generatedResolution": 256
+  },
+  {
+    "id": "sandstone_blocks_04",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      197.413,
+      164.938,
+      127.696
+    ],
+    "beforeRGB": [
+      152.095947265625,
+      114.31005859375,
+      86.104248046875
+    ],
+    "afterRGB": [
+      198.8063507080078,
+      166.17713928222656,
+      128.73768615722656
+    ],
+    "targetRoughness": 0.87894,
+    "afterRoughness": 0.8780990301389942,
+    "rgbError": 1.3933507080078016,
+    "generatedResolution": 256
+  },
+  {
+    "id": "sandstone_blocks_05",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      174.851,
+      155.321,
+      131.818
+    ],
+    "beforeRGB": [
+      135.854736328125,
+      106.21923828125,
+      83.751220703125
+    ],
+    "afterRGB": [
+      174.8541259765625,
+      155.32066345214844,
+      131.81703186035156
+    ],
+    "targetRoughness": 0.83276,
+    "afterRoughness": 0.8324876972271757,
+    "rgbError": 0.0031259765625009095,
+    "generatedResolution": 256
+  },
+  {
+    "id": "sandstone_blocks_08",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      165.095,
+      146.281,
+      116.393
+    ],
+    "beforeRGB": [
+      148.29638671875,
+      130.10888671875,
+      96.335205078125
+    ],
+    "afterRGB": [
+      165.9207305908203,
+      146.8614501953125,
+      116.652099609375
+    ],
+    "targetRoughness": 0.50609,
+    "afterRoughness": 0.5060706045113186,
+    "rgbError": 0.8257305908203136,
+    "generatedResolution": 256
+  },
+  {
+    "id": "sandstone_brick_wall_01",
+    "gen": "ornament",
+    "review": "statistical",
+    "targetRGB": [
+      74.422,
+      51.362,
+      36.415
+    ],
+    "beforeRGB": [
+      139.221923828125,
+      107.37939453125,
+      83.82373046875
+    ],
+    "afterRGB": [
+      74.88191223144531,
+      51.69166564941406,
+      36.68836975097656
+    ],
+    "targetRoughness": 0.87172,
+    "afterRoughness": 0.8716831581263329,
+    "rgbError": 0.45991223144531546,
+    "generatedResolution": 256
+  },
+  {
+    "id": "seaworn_sandstone_brick",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      139.494,
+      120.745,
+      97.856
+    ],
+    "beforeRGB": [
+      156.6494140625,
+      124.201416015625,
+      95.084716796875
+    ],
+    "afterRGB": [
+      139.70712280273438,
+      120.9427490234375,
+      98.02403259277344
+    ],
+    "targetRoughness": 0.76869,
+    "afterRoughness": 0.768958117915792,
+    "rgbError": 0.21312280273437523,
+    "generatedResolution": 256
+  },
+  {
+    "id": "seaworn_stone_tiles",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      134.633,
+      122.409,
+      107.365
+    ],
+    "beforeRGB": [
+      131.095458984375,
+      121.091796875,
+      98.239013671875
+    ],
+    "afterRGB": [
+      134.63401794433594,
+      122.40888977050781,
+      107.36524963378906
+    ],
+    "targetRoughness": 0.78532,
+    "afterRoughness": 0.785344800761407,
+    "rgbError": 0.001017944335927723,
+    "generatedResolution": 256
+  },
+  {
+    "id": "short_bricks_floor",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      111.027,
+      86.409,
+      70.04
+    ],
+    "beforeRGB": [
+      118.343994140625,
+      91.69482421875,
+      74.32861328125
+    ],
+    "afterRGB": [
+      111.45561218261719,
+      86.81697082519531,
+      70.47604370117188
+    ],
+    "targetRoughness": 0.80358,
+    "afterRoughness": 0.8036527147483324,
+    "rgbError": 0.43604370117186875,
+    "generatedResolution": 256
+  },
+  {
+    "id": "slumped_mortar_brick",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      122.888,
+      107.581,
+      89.693
+    ],
+    "beforeRGB": [
+      193.452392578125,
+      185.84619140625,
+      157.67431640625
+    ],
+    "afterRGB": [
+      122.80107116699219,
+      107.50230407714844,
+      89.63813781738281
+    ],
+    "targetRoughness": 0.88388,
+    "afterRoughness": 0.8838910271129081,
+    "rgbError": 0.08692883300781773,
+    "generatedResolution": 256
+  },
+  {
+    "id": "square_brick_floor",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      98.12,
+      80.173,
+      68.151
+    ],
+    "beforeRGB": [
+      139.045654296875,
+      104.955322265625,
+      81.435546875
+    ],
+    "afterRGB": [
+      98.12004089355469,
+      80.17343139648438,
+      68.15252685546875
+    ],
+    "targetRoughness": 0.87895,
+    "afterRoughness": 0.8773195154522859,
+    "rgbError": 0.0015268554687537517,
+    "generatedResolution": 256
+  },
+  {
+    "id": "square_brick_paving",
+    "gen": "tiles",
+    "review": "statistical",
+    "targetRGB": [
+      99.345,
+      86.948,
+      69.012
+    ],
+    "beforeRGB": [
+      137.4287109375,
+      102.974365234375,
+      80.031005859375
+    ],
+    "afterRGB": [
+      98.92015075683594,
+      86.78202819824219,
+      69.00103759765625
+    ],
+    "targetRoughness": 0.84821,
+    "afterRoughness": 0.8482303394984957,
+    "rgbError": 0.42484924316406136,
+    "generatedResolution": 256
+  },
+  {
+    "id": "square_concrete_pavers",
+    "gen": "tiles",
+    "review": "statistical",
+    "targetRGB": [
+      124.37,
+      102.747,
+      81.511
+    ],
+    "beforeRGB": [
+      141.598876953125,
+      106.74365234375,
+      82.3203125
+    ],
+    "afterRGB": [
+      124.69766235351562,
+      102.9715576171875,
+      81.75157165527344
+    ],
+    "targetRoughness": 0.69412,
+    "afterRoughness": 0.694209858015299,
+    "rgbError": 0.32766235351562045,
+    "generatedResolution": 256
+  },
+  {
+    "id": "square_pavers",
+    "gen": "tiles",
+    "review": "statistical",
+    "targetRGB": [
+      90.865,
+      60.086,
+      51.558
+    ],
+    "beforeRGB": [
+      141.644775390625,
+      106.5283203125,
+      82.1552734375
+    ],
+    "afterRGB": [
+      91.40562438964844,
+      60.31562805175781,
+      51.772796630859375
+    ],
+    "targetRoughness": 0.91136,
+    "afterRoughness": 0.911166441674124,
+    "rgbError": 0.5406243896484426,
+    "generatedResolution": 256
+  },
+  {
+    "id": "square_tiled_wall",
+    "gen": "ornament",
+    "review": "statistical",
+    "targetRGB": [
+      125.858,
+      109.684,
+      96.305
+    ],
+    "beforeRGB": [
+      110.152099609375,
+      110.11767578125,
+      101.278076171875
+    ],
+    "afterRGB": [
+      127.15444946289062,
+      110.90953063964844,
+      97.48558044433594
+    ],
+    "targetRoughness": 0.72379,
+    "afterRoughness": 0.7237405215991853,
+    "rgbError": 1.296449462890621,
+    "generatedResolution": 256
+  },
+  {
+    "id": "square_tiles",
+    "gen": "tiles",
+    "review": "statistical",
+    "targetRGB": [
+      104.463,
+      94.894,
+      85.138
+    ],
+    "beforeRGB": [
+      117.65087890625,
+      117.1416015625,
+      107.737548828125
+    ],
+    "afterRGB": [
+      104.0975341796875,
+      94.56930541992188,
+      84.80586242675781
+    ],
+    "targetRoughness": 0.83459,
+    "afterRoughness": 0.8345767152079917,
+    "rgbError": 0.36546582031249386,
+    "generatedResolution": 256
+  },
+  {
+    "id": "stacked_brick_wall",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      112.804,
+      69.71,
+      45.028
+    ],
+    "beforeRGB": [
+      140.187255859375,
+      110.849853515625,
+      87.30029296875
+    ],
+    "afterRGB": [
+      112.80331420898438,
+      69.70744323730469,
+      45.02899169921875
+    ],
+    "targetRoughness": 0.99178,
+    "afterRoughness": 0.9919676537612017,
+    "rgbError": 0.0025567626953062472,
+    "generatedResolution": 256
+  },
+  {
+    "id": "stenciled_brick_floor",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      123.984,
+      90.199,
+      69.285
+    ],
+    "beforeRGB": [
+      164.4345703125,
+      139.681640625,
+      113.1611328125
+    ],
+    "afterRGB": [
+      124.7882080078125,
+      90.72018432617188,
+      69.62493896484375
+    ],
+    "targetRoughness": 0.82637,
+    "afterRoughness": 0.8248112098838551,
+    "rgbError": 0.8042080078125053,
+    "generatedResolution": 256
+  },
+  {
+    "id": "stone_brick_wall_001",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      77.019,
+      65.582,
+      47.79
+    ],
+    "beforeRGB": [
+      152.064453125,
+      125.1767578125,
+      100.3876953125
+    ],
+    "afterRGB": [
+      77.27072143554688,
+      65.84036254882812,
+      48.00056457519531
+    ],
+    "targetRoughness": 0.83811,
+    "afterRoughness": 0.8379805620977071,
+    "rgbError": 0.25836254882813137,
+    "generatedResolution": 256
+  },
+  {
+    "id": "stone_wall_05",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      78.333,
+      70.117,
+      58.408
+    ],
+    "beforeRGB": [
+      122.599365234375,
+      99.25830078125,
+      73.36279296875
+    ],
+    "afterRGB": [
+      78.65245056152344,
+      70.46519470214844,
+      58.78172302246094
+    ],
+    "targetRoughness": 0.92591,
+    "afterRoughness": 0.9259655522374118,
+    "rgbError": 0.37372302246093625,
+    "generatedResolution": 256
+  },
+  {
+    "id": "t_brick_floor_002",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      130.516,
+      101.177,
+      81.896
+    ],
+    "beforeRGB": [
+      137.796630859375,
+      106.13525390625,
+      82.84619140625
+    ],
+    "afterRGB": [
+      130.5155487060547,
+      101.17625427246094,
+      81.89901733398438
+    ],
+    "targetRoughness": 0.81028,
+    "afterRoughness": 0.8101317760988341,
+    "rgbError": 0.003017333984374204,
+    "generatedResolution": 256
+  },
+  {
+    "id": "t_concrete_wall_002",
+    "gen": "ornament",
+    "review": "statistical",
+    "targetRGB": [
+      150.992,
+      136.906,
+      117.654
+    ],
+    "beforeRGB": [
+      134.812255859375,
+      100.7978515625,
+      78.271728515625
+    ],
+    "afterRGB": [
+      151.7641143798828,
+      137.6606903076172,
+      118.32260131835938
+    ],
+    "targetRoughness": 0.81438,
+    "afterRoughness": 0.8143461339611745,
+    "rgbError": 0.7721143798828223,
+    "generatedResolution": 256
+  },
+  {
+    "id": "white_bricks",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      140.213,
+      127.578,
+      107.023
+    ],
+    "beforeRGB": [
+      190.535400390625,
+      180.00927734375,
+      153.21826171875
+    ],
+    "afterRGB": [
+      140.81787109375,
+      128.12562561035156,
+      107.55020141601562
+    ],
+    "targetRoughness": 0.71535,
+    "afterRoughness": 0.713578108245022,
+    "rgbError": 0.6048710937500061,
+    "generatedResolution": 256
+  },
+  {
+    "id": "white_sandstone_blocks_02",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      178.72,
+      163.755,
+      143.748
+    ],
+    "beforeRGB": [
+      139.45947265625,
+      116.159912109375,
+      94.779541015625
+    ],
+    "afterRGB": [
+      178.72711181640625,
+      163.7555694580078,
+      143.7494659423828
+    ],
+    "targetRoughness": 0.69375,
+    "afterRoughness": 0.6933814553651552,
+    "rgbError": 0.007111816406251137,
+    "generatedResolution": 256
+  },
+  {
+    "id": "white_sandstone_bricks",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      136.713,
+      127.586,
+      110.374
+    ],
+    "beforeRGB": [
+      150.771240234375,
+      126.28125,
+      101.112548828125
+    ],
+    "afterRGB": [
+      138.53379821777344,
+      129.45138549804688,
+      112.12396240234375
+    ],
+    "targetRoughness": 0.68776,
+    "afterRoughness": 0.6875080781822464,
+    "rgbError": 1.8653854980468765,
+    "generatedResolution": 256
+  },
+  {
+    "id": "white_sandstone_bricks_03",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      176.667,
+      159.018,
+      131.822
+    ],
+    "beforeRGB": [
+      130.1142578125,
+      99.157958984375,
+      79.27392578125
+    ],
+    "afterRGB": [
+      176.66909790039062,
+      159.0204315185547,
+      131.82168579101562
+    ],
+    "targetRoughness": 0.52625,
+    "afterRoughness": 0.5250498453775804,
+    "rgbError": 0.002431518554686818,
+    "generatedResolution": 256
+  },
+  {
+    "id": "whitewashed_brick",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      165.65,
+      153.305,
+      140.475
+    ],
+    "beforeRGB": [
+      194.18017578125,
+      188.30712890625,
+      162.213134765625
+    ],
+    "afterRGB": [
+      165.62217712402344,
+      153.28985595703125,
+      140.45948791503906
+    ],
+    "targetRoughness": 0.92907,
+    "afterRoughness": 0.9292567832801532,
+    "rgbError": 0.027822875976568184,
+    "generatedResolution": 256
+  },
+  {
+    "id": "worn_brick_floor",
+    "gen": "masonry",
+    "review": "visual-sampled",
+    "targetRGB": [
+      93.454,
+      65.123,
+      48.487
+    ],
+    "beforeRGB": [
+      82.916748046875,
+      60.162353515625,
+      44.9072265625
+    ],
+    "afterRGB": [
+      86.73258972167969,
+      62.509490966796875,
+      46.43147277832031
+    ],
+    "targetRoughness": 0.95037,
+    "afterRoughness": 0.9528402291088157,
+    "rgbError": 6.721410278320306,
+    "generatedResolution": 256
+  },
+  {
+    "id": "worn_brick_path",
+    "gen": "herringbone",
+    "review": "statistical",
+    "targetRGB": [
+      62.445,
+      48.308,
+      31.373
+    ],
+    "beforeRGB": [
+      124.3662109375,
+      102.276123046875,
+      74.871337890625
+    ],
+    "afterRGB": [
+      62.39253234863281,
+      48.46730041503906,
+      31.345993041992188
+    ],
+    "targetRoughness": 0.96357,
+    "afterRoughness": 0.9637682746443896,
+    "rgbError": 0.15930041503906267,
+    "generatedResolution": 256
+  },
+  {
+    "id": "worn_brick_wall",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      134.221,
+      123.329,
+      110.497
+    ],
+    "beforeRGB": [
+      124.86279296875,
+      105.31982421875,
+      76.50390625
+    ],
+    "afterRGB": [
+      134.22410583496094,
+      123.32835388183594,
+      110.49665832519531
+    ],
+    "targetRoughness": 0.90543,
+    "afterRoughness": 0.9048750933476895,
+    "rgbError": 0.003105834960933862,
+    "generatedResolution": 256
+  },
+  {
+    "id": "worn_patterned_pavers",
+    "gen": "hexagon",
+    "review": "statistical",
+    "targetRGB": [
+      140.33,
+      104.692,
+      54.216
+    ],
+    "beforeRGB": [
+      137.0673828125,
+      104.44384765625,
+      81.81201171875
+    ],
+    "afterRGB": [
+      140.3319854736328,
+      104.6949462890625,
+      54.216461181640625
+    ],
+    "targetRoughness": 0.83089,
+    "afterRoughness": 0.8306401869827957,
+    "rgbError": 0.002946289062506935,
+    "generatedResolution": 256
+  },
+  {
+    "id": "yellow_brick",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      164.891,
+      137.323,
+      107.481
+    ],
+    "beforeRGB": [
+      147.235107421875,
+      129.609619140625,
+      96.790283203125
+    ],
+    "afterRGB": [
+      164.89137268066406,
+      137.32327270507812,
+      107.47978210449219
+    ],
+    "targetRoughness": 0.84069,
+    "afterRoughness": 0.8398791743256665,
+    "rgbError": 0.001217895507807043,
+    "generatedResolution": 256
+  },
+  {
+    "id": "yellow_bricks",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      153.527,
+      140.651,
+      109.788
+    ],
+    "beforeRGB": [
+      107.73193359375,
+      85.72998046875,
+      64.390380859375
+    ],
+    "afterRGB": [
+      153.52711486816406,
+      140.6518096923828,
+      109.78631591796875
+    ],
+    "targetRoughness": 0.78026,
+    "afterRoughness": 0.7801790125231025,
+    "rgbError": 0.001684082031246703,
+    "generatedResolution": 256
+  },
+  {
+    "id": "yellow_stone_wall",
+    "gen": "masonry",
+    "review": "statistical",
+    "targetRGB": [
+      175.173,
+      151.11,
+      119.647
+    ],
+    "beforeRGB": [
+      141.84619140625,
+      111.41064453125,
+      87.633544921875
+    ],
+    "afterRGB": [
+      176.2024383544922,
+      152.04898071289062,
+      120.43058776855469
+    ],
+    "targetRoughness": 0.78892,
+    "afterRoughness": 0.7889113482303016,
+    "rgbError": 1.0294383544921857,
+    "generatedResolution": 256
+  }
+]

@@ -7610,28 +7610,30 @@
     "gen": "masonry",
     "p": {
       "scale": 7,
-      "rows": 14,
-      "mortar": 0.058,
-      "wear": 0.65,
-      "cracks": 0.22,
-      "heightVariation": 0.16,
-      "tilt": 0.07,
-      "pits": 0.3,
-      "jitter": 0.2,
-      "mortarHeight": 0.18,
-      "seed": 656
+      "rows": 22,
+      "mortar": 0.022,
+      "wear": 0.42,
+      "cracks": 0.12,
+      "heightVariation": 0.09,
+      "tilt": 0.035,
+      "pits": 0.22,
+      "jitter": 0.3,
+      "mortarHeight": 0.39,
+      "seed": 656,
+      "bevel": 0.028,
+      "splits": 0.12
     },
     "dark": "#77533e",
     "light": "#a47351",
-    "roughness": 0.86,
+    "roughness": 0.933,
     "metallic": 0,
-    "bump": 0.8,
+    "bump": 0.18,
     "nodeOverrides": {
       "3": {
-        "strength": 0.005
+        "strength": 0.003
       },
       "4": {
-        "strength": 0.17
+        "strength": 0.025
       },
       "8": {
         "amount": 0.34
@@ -7640,33 +7642,36 @@
         "opacity": 0.17
       },
       "10": {
-        "contrast": 0.16,
-        "gamma": 4.59576912880888
+        "contrast": 0.7,
+        "gamma": 1
       },
       "11": {
-        "radius": 4,
-        "strength": 3.8
+        "radius": 3,
+        "strength": 1.5
       },
       "12": {
-        "colorA": "#a47351",
-        "colorB": "#77533e",
-        "colorC": "#b38d66",
-        "mortar": "#8d8870",
-        "variation": 0.85
+        "colorA": "#75553c",
+        "colorB": "#4c4538",
+        "colorC": "#8a6548",
+        "mortar": "#444a40",
+        "variation": 0.65
       },
       "13": {
-        "amount": 0.15,
+        "amount": 0.025,
         "scale": 11
       },
       "15": {
-        "burn": 0.12,
-        "abrasion": 0.28,
-        "bleed": 0.27,
+        "burn": 0.02,
+        "abrasion": 0.035,
+        "bleed": 0.015,
         "moss": 0,
-        "paint": 0.72,
-        "paintColor": "#5b8e9c",
+        "paint": 1,
+        "paintColor": "#81afbe",
         "stripes": 0,
-        "seed": 656
+        "seed": 656,
+        "grime": 0.07,
+        "depositColor": "#7e9ba1",
+        "roughVariation": 0.4
       }
     },
     "source": {
@@ -7678,7 +7683,12 @@
         1800.0000715255737,
         1800.0000715255737
       ],
-      "method": "Approximation procédurale paramétrée depuis la description du catalogue ; pas un scan ni une reconstruction inverse exacte."
+      "method": "Approximation procédurale paramétrée depuis la description du catalogue ; pas un scan ni une reconstruction inverse exacte.",
+      "calibration": {
+        "referenceResolution": 2048,
+        "method": "Visual layout and RGB/roughness statistics from original CC0 maps",
+        "roughnessMean": 0.933
+      }
     },
     "preview": {
       "fov": 43,
@@ -12235,29 +12245,31 @@
     "family": "Briques",
     "gen": "masonry",
     "p": {
-      "scale": 7,
-      "rows": 14,
-      "mortar": 0.036,
-      "wear": 0.93,
-      "cracks": 0.6,
-      "heightVariation": 0.38,
-      "tilt": 0.18,
-      "pits": 0.3,
-      "jitter": 0.2,
-      "mortarHeight": 0.18,
-      "seed": 520
+      "scale": 13,
+      "rows": 18,
+      "mortar": 0.027,
+      "wear": 0.65,
+      "cracks": 0.3,
+      "heightVariation": 0.22,
+      "tilt": 0.1,
+      "pits": 0.35,
+      "jitter": 0.35,
+      "mortarHeight": 0.34,
+      "seed": 520,
+      "bevel": 0.04,
+      "splits": 0.3
     },
-    "dark": "#714638",
-    "light": "#ab7451",
-    "roughness": 0.86,
+    "dark": "#3d2a21",
+    "light": "#80563c",
+    "roughness": 0.95,
     "metallic": 0,
-    "bump": 1.25,
+    "bump": 0.35,
     "nodeOverrides": {
       "3": {
-        "strength": 0.014
+        "strength": 0.004
       },
       "4": {
-        "strength": 0.17
+        "strength": 0.08
       },
       "8": {
         "amount": 0.34
@@ -12266,33 +12278,36 @@
         "opacity": 0.17
       },
       "10": {
-        "contrast": 0.16,
-        "gamma": 4.59576912880888
+        "contrast": 0.45,
+        "gamma": 1
       },
       "11": {
-        "radius": 4,
-        "strength": 6
+        "radius": 3,
+        "strength": 1.8
       },
       "12": {
-        "colorA": "#ab7451",
-        "colorB": "#714638",
-        "colorC": "#c18c64",
-        "mortar": "#a29a7f",
+        "colorA": "#895f45",
+        "colorB": "#654c3b",
+        "colorC": "#9f6a48",
+        "mortar": "#523928",
         "variation": 0.85
       },
       "13": {
-        "amount": 0.15,
+        "amount": 0.08,
         "scale": 11
       },
       "15": {
-        "burn": 0.12,
-        "abrasion": 0.6,
-        "bleed": 0.27,
+        "burn": 0.025,
+        "abrasion": 0.03,
+        "bleed": 0.025,
         "moss": 0,
         "paint": 0,
         "paintColor": "#d6d0b3",
         "stripes": 0,
-        "seed": 520
+        "seed": 520,
+        "grime": 0.65,
+        "depositColor": "#58402d",
+        "roughVariation": 0.4
       }
     },
     "source": {
@@ -12304,7 +12319,12 @@
         2000,
         2000
       ],
-      "method": "Approximation procédurale paramétrée depuis la description du catalogue ; pas un scan ni une reconstruction inverse exacte."
+      "method": "Approximation procédurale paramétrée depuis la description du catalogue ; pas un scan ni une reconstruction inverse exacte.",
+      "calibration": {
+        "referenceResolution": 2048,
+        "method": "Visual layout and RGB/roughness statistics from original CC0 maps",
+        "roughnessMean": 0.95
+      }
     },
     "preview": {
       "fov": 43,

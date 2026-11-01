@@ -54,3 +54,5 @@ html,body{max-width:100%;overflow-x:hidden}main{min-width:0;grid-template-column
 .realtime-controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:8px 20px;font-size:11px;flex-shrink:0;background:#20271f}.realtime-controls label{display:flex;align-items:center;gap:7px}.realtime-controls input{width:auto}.realtime-controls span{color:#aab49f}.realtime-controls select{width:75px}
 
 #maps.gpu-maps-note{display:block;line-height:1.6;padding:14px 20px;color:#b4bea7;font-size:11px}
+
+.dungeon-controls{padding:12px;background:#25261e;border:1px solid #646d4e;border-radius:6px;display:grid;gap:12px}.dungeon-controls[hidden]{display:none}.dungeon-controls strong{font-size:11px}.dungeon-controls small{line-height:1.6;color:#b0b5a3}.dungeon-controls input[type=checkbox]{width:auto}

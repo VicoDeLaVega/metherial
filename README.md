@@ -78,3 +78,9 @@ Activez « Temps réel GPU · aperçu simplifié ». Un compute shader WGSL gén
 Ce mode est une approximation interactive du graphe, sans ray tracing matériel. Les motifs, Flood Fill, AO, blur, usure et certains paramètres structurels diffèrent du calcul complet ; il ne remplace pas la cuisson finale. Les vignettes des nodes ne sont pas recalculées en mode GPU. « Cuire pour exporter » désactive ce mode et calcule le graphe complet à la résolution sélectionnée ; exportez ensuite les cartes PNG. Un échec de compilation revient au calcul complet et affiche sa cause.
 
 Validation : node tests-realtime.cjs vérifie la génération des 205 recettes, les uniforms et la stabilité du shader lors d'un réglage de rugosité. La compilation et les interactions GPU sont vérifiées dans Chrome sur des matériaux représentatifs.
+
+## Salle de donjon (scène de démonstration)
+
+Le bouton « Salle de donjon » ouvre une scène WebGPU avec murs, piliers, dalles, caisse en bois, grille métallique et deux sources lumineuses animées. Le matériau actif du graphe est appliqué aux murs ; les autres surfaces utilisent des shaders de démonstration indépendants. Réglages directs d'humidité du sol et de puissance/animation des torches. La caméra conserve les contrôles d'orbite, zoom et déplacement. Le mode GPU est activé à l'entrée de la salle.
+
+La scène utilise du ray marching SDF et des ombres calculées dans le shader, sans ray tracing matériel. Il s'agit d'un aperçu de matériaux en contexte, pas encore d'un éditeur de niveau, d'un système de placement d'objets ou d'un export de scène. Les sols et les accessoires ne sont pas encore assignables à des graphes distincts.

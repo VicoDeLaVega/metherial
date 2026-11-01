@@ -54,3 +54,5 @@ Application statique compatible GitHub Pages : index.html, style.css, app.js et 
 
 
 Pipeline de relief : HeightMacro (hauteur lissée) pour le ray marching et NormalMicro (résidu haute fréquence atténué) pour les détails. Lorsque le déplacement est nul, l'aperçu utilise la Normal complète. Les sept cartes sont exportables. Mortier et dépôts ont une rugosité distincte des faces. Éclairage toujours analytique de studio, pas encore de HDRI importée.
+
+Éclairage HDRI : Studio Small 09 (Sergej Majboroda / Poly Haven, CC0). Source : https://polyhaven.com/a/studio_small_09 . Radiance linéaire rgba16float, neuf niveaux GGX préfiltrés et irradiance diffuse. Contrôles rotation/intensité/fond ; studio analytique et point light indépendants. Les données sont embarquées dans app.js pour fonctionner sans redémarrer les anciennes versions du serveur local. La réponse spéculaire utilise une approximation de Fresnel intégrée, sans LUT BRDF dédiée. Voir assets/LICENSE.txt.

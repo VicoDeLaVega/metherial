@@ -43,3 +43,5 @@ html,body{max-width:100%;overflow-x:hidden}main{min-width:0;grid-template-column
 #maps .map{height:152px;min-height:152px;overflow:hidden}
 
 #preview.dragging{cursor:grabbing}.preview{overscroll-behavior:contain}.preview-tools{padding-bottom:4px}
+
+.hdri-controls{border-bottom:1px solid var(--line);padding:6px 0 16px;margin-bottom:14px}.hdri-controls select{width:155px;padding:5px}.hdri-controls small{font-size:9px;color:var(--dim)}

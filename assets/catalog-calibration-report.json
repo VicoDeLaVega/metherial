@@ -1293,7 +1293,8 @@
     "targetRoughness": 0.81503,
     "afterRoughness": 0.8150941138169051,
     "rgbError": 0.41394335937499704,
-    "generatedResolution": 256
+    "generatedResolution": 256,
+    "layoutRevisedAfterMeasurement": true
   },
   {
     "id": "exterior_wall_cladding",

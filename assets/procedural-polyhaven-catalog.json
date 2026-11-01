@@ -5931,11 +5931,13 @@
     "family": "Briques",
     "gen": "basket",
     "p": {
-      "scale": 4,
-      "joint": 0.036,
-      "bevel": 0.055,
-      "variation": 0.22,
-      "seed": 843
+      "scale": 8,
+      "joint": 0.018,
+      "bevel": 0.025,
+      "variation": 0.28,
+      "seed": 843,
+      "pieces": 2,
+      "irregular": 0.055
     },
     "dark": "#634025",
     "light": "#774829",
@@ -5944,10 +5946,10 @@
     "bump": 0.23786000000000002,
     "nodeOverrides": {
       "3": {
-        "strength": 0.003
+        "strength": 0.001
       },
       "4": {
-        "strength": 0.04393
+        "strength": 0.035
       },
       "5": {
         "redGain": 1.1302196256685624,
